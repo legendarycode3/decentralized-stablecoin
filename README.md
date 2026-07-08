@@ -7,3 +7,4 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * **Algorithmic Minting:** Stablecoin issuance is governed by protocol collateralization rules.
 * **Health Factor System:** Continuously monitors  collateralization to help maintain protocol solvency.
 * **Liquidation Mechanism:** Enables liquidation of undercollateralized positions to preserve protocol stability.
+* **Chainlink Price Feed Integration:**

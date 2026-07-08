@@ -6,3 +6,4 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * **Exogenous Collateral:** Supports WETH and WBTC  as collateral assets.
 * **Algorithmic Minting:** Stablecoin issuance is governed by protocol collateralization rules.
 * **Health Factor System:** Continuously monitors  collateralization to help maintain protocol solvency.
+* **Liquidation Mechanism:**

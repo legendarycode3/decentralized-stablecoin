@@ -9,3 +9,4 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * **Liquidation Mechanism:** Enables liquidation of undercollateralized positions to preserve protocol stability.
 * **Chainlink Price Feed Integration:** Utilizes decentralized price oracles for accurate collateral valuation.
 * **Protocol-Controlled Minting & Burning:** Stablecoin supply is securely  managed by the `DSCEngine`.
+* **Permissionless User Interactions:**

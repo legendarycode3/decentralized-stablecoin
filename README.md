@@ -3,4 +3,4 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 ## Features
 * **Overcollateralized Stablecoin:** Deposit WETH or WBTC  as collateral to mint  a decentralized USD-pegged stablecoin.
-* **Exogenous Collateral:**
+* **Exogenous Collateral:** Supports WETH and WBTC

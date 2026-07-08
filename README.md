@@ -10,5 +10,5 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * **Chainlink Price Feed Integration:** Utilizes decentralized price oracles for accurate collateral valuation.
 * **Protocol-Controlled Minting & Burning:** Stablecoin supply is securely  managed by the `DSCEngine`.
 * **Permissionless User Interactions:** Users can deposit collateral, mint DSC, redeem collateral, and participate in liquidations.
-* **Gas Optimized:** Uses custom errors and efficient Solidity patterns
+* **Gas Optimized:** Uses custom errors and efficient Solidity patterns to reduce gas costs.
  

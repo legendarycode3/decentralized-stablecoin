@@ -1,4 +1,4 @@
 # Decentralized Stablecoin
-A decentralized
+A decentralized  overcollateralized stablecoin
 
 ## Features

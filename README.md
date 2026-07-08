@@ -8,4 +8,4 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * **Health Factor System:** Continuously monitors  collateralization to help maintain protocol solvency.
 * **Liquidation Mechanism:** Enables liquidation of undercollateralized positions to preserve protocol stability.
 * **Chainlink Price Feed Integration:** Utilizes decentralized price oracles for accurate collateral valuation.
-* **Protocol-Controlled Minting & Burning:** Stablecoin supply is securely
+* **Protocol-Controlled Minting & Burning:** Stablecoin supply is securely  managed by the `DSCEngine`.

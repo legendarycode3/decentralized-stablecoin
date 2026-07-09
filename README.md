@@ -15,6 +15,10 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * **OpenZeppelin Security:** Built on audited OpenZeppelin ERC20 and access  control contracts.
 
 
+## Technology Stack (Technologies Used)
+
+
 ## Getting Started
+
  
 ## Security Considerations

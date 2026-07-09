@@ -14,3 +14,4 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * **Comprehensive Testing:** Includes unit, fuzz, and invariant tests built with Foundry.
 * **OpenZeppelin Security:** Built on audited OpenZeppelin ERC20 and access  control contracts.
  
+## Security Considerations

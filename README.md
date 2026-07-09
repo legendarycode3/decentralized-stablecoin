@@ -13,5 +13,8 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * **Gas Optimized:** Uses custom errors and efficient Solidity patterns to reduce gas costs.
 * **Comprehensive Testing:** Includes unit, fuzz, and invariant tests built with Foundry.
 * **OpenZeppelin Security:** Built on audited OpenZeppelin ERC20 and access  control contracts.
+
+
+## Getting Started
  
 ## Security Considerations

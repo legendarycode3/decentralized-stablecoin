@@ -22,3 +22,4 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
  
 ## Security Considerations
+* ****Reentrancy Protection:****

@@ -22,5 +22,5 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
  
 ## Security Considerations
-* ****Reentrancy Protection:**** The protocol uses OpenZeppelin's `ReentrancyGuard` to protect functions that transfer collateral or perform state-changing operations
+* ****Reentrancy Protection:**** The protocol uses OpenZeppelin's `ReentrancyGuard` to protect functions that transfer collateral or perform state-changing operations involving external token contracts.
 * ****Checks-Effects-Interactions (CEI) Pattern:****

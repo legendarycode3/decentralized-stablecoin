@@ -36,6 +36,6 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 
 ## Known Risks & Assumptions
-* ****Oracle Dependency:****
+* ****Oracle Dependency:**** The protocol depends on external
 *
 * with external ERC-20 token contracts,

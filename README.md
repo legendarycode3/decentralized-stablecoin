@@ -22,5 +22,5 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
  
 ## Security Considerations
-* ****Reentrancy Protection:****
+* ****Reentrancy Protection:**** The protocol uses
 * ****Checks-Effects-Interactions (CEI) Pattern:****

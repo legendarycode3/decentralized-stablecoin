@@ -32,6 +32,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   └── DSCEngine.sol                                                # Core protocol logic (collateral deposits, minting, redemption, liquidation, health factor)
  │   ├── test                                                         # Smart contract test suite
  │   ├── fuzz
+ │   │   ├── Handler.t.sol 
 ```
 
  

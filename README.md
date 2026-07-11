@@ -23,7 +23,10 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 
 ## Project Structure
-├── script    
+```shell 
+ ├── script
+ │   ├── DeployDSC.s.sol   
+```
 
  
 ## Security Considerations

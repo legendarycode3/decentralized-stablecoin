@@ -53,6 +53,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.36/)
 * [Chainlink](https://docs.chain.link/data-feeds/price-feeds)
 * [MakerDAO Technical Docs](https://docs.makerdao.com/)
+* [Foundry Book](https://www.getfoundry.sh/)
 
 
 ## Acknowledgments

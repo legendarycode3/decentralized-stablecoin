@@ -42,7 +42,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   │   └── MockV3Aggregator.sol                                     # Mock Chainlink price feed aggregator
  │   │
  │   └── unit
- │       └── DSCEngineTest.t.sol                                      # Unit tests covering the
+ │       └── DSCEngineTest.t.sol                                      # Unit tests covering the core protocol functionality
 
 ```
 

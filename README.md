@@ -46,7 +46,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │
  ├── lib
  │   ├── forge-std/                                                   # Foundry standard testing library
- │   ├── chainlink-brownie-contracts/                                 # Chainlink smart contract interfaces
+ │   ├── chainlink-brownie-contracts/                                 # Chainlink smart contract interfaces and utilities
 
 ```
 

@@ -24,7 +24,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 ## Project Structure
 ```shell 
- ├── script                           # Deployment and
+ ├── script                                                           # Deployment and network configuration scripts 
  │   ├── DeployDSC.s.sol
  │   └── HelperConfig.s.sol   
 ```

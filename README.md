@@ -51,7 +51,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │
  ├── foundry.toml                                                     # Foundry project configuration
  ├── Makefile 
- └── README.md 
+ └── README.md                                                        # Project documentation
 ```
 
  

@@ -53,3 +53,4 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * Built with [Foundry](https://github.com/foundry-rs/foundry) toolkit
 * Uses [Chainlink](https://chain.link/) decentralized oracles
 * Inspired by [MakerDAO's](https://makerdao.com/en/) DAI stablecoin architecture
+* Security patterns from [ OpenZeppelin](https://www.openzeppelin.com/)

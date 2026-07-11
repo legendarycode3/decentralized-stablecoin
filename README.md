@@ -38,7 +38,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   ├── mocks                                                        # Mock contracts for local development and testing
  │   │   ├── ERC20Mock.sol                                            # Mock ERC20 collateral token
  │   │   ├── MockFailedMintDSC.sol                                    # Mock contract simulating failed DSC mint operations
- │   │   ├── MockFailedTransfer.sol                                   # Mock contract simulating
+ │   │   ├── MockFailedTransfer.sol                                   # Mock contract simulating failed token transfers
 ```
 
  

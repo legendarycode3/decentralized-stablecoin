@@ -48,6 +48,8 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   ├── forge-std/                                                   # Foundry standard testing library
  │   ├── chainlink-brownie-contracts/                                 # Chainlink smart contract interfaces and utilities
  │   └── openzeppelin-contracts/                                      # OpenZeppelin audited contract library
+ │
+ ├── foundry.toml
 
 ```
 

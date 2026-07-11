@@ -39,7 +39,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   │   ├── ERC20Mock.sol                                            # Mock ERC20 collateral token
  │   │   ├── MockFailedMintDSC.sol                                    # Mock contract simulating failed DSC mint operations
  │   │   ├── MockFailedTransfer.sol                                   # Mock contract simulating failed token transfers
- │   │   └── MockV3Aggregator.sol
+ │   │   └── MockV3Aggregator.sol                                     # Mock Chainlink price feed aggregator
 ```
 
  

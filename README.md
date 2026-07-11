@@ -31,6 +31,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   ├── DecentralizedStableCoin.sol                                  # ERC20 stablecoin implementation responsible for minting and burning DSC
  │   └── DSCEngine.sol                                                # Core protocol logic (collateral deposits, minting, redemption, liquidation, health factor)
  │   ├── test                                                         # Smart contract test suite
+ │   ├── fuzz
 ```
 
  

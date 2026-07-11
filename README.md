@@ -43,6 +43,8 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   │
  │   └── unit
  │       └── DSCEngineTest.t.sol                                      # Unit tests covering the core protocol functionality
+ │
+ ├── lib
 
 ```
 

@@ -30,7 +30,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   │   └── OracleLib.sol                                            # Oracle utility library for Chainlink price feed safety and stale price checks
  │   ├── DecentralizedStableCoin.sol                                  # ERC20 stablecoin implementation responsible for minting and burning DSC
  │   └── DSCEngine.sol                                                # Core protocol logic (collateral deposits, minting, redemption, liquidation, health factor)
- │   ├── test
+ │   ├── test                                                         # Smart contract test suite
 ```
 
  

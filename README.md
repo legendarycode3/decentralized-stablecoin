@@ -51,6 +51,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 ## Resources
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.36/)
+* [Chainlink](https://docs.chain.link/data-feeds/price-feeds)
 
 
 ## Acknowledgments

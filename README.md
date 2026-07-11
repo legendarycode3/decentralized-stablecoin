@@ -34,7 +34,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * ****Precision-Safe Arithmetic:**** The protocol performs all financial calculations using fixed-point arithmetic with standardized precision constants. This avoids floating-point inaccuracies while minimizing rounding errors during collateral valuation, health factor calculations, and liquidation logic.
 
 ### Audit Status
-****⚠️ NOT AUDITED**** -
+****⚠️ NOT AUDITED**** - Do not deploy to mainnet
 
 
 

@@ -50,4 +50,4 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 
 ## Acknowledgments
-* Inspired by [MakerDAO's](https://makerdao.com/en/)
+* Inspired by [MakerDAO's](https://makerdao.com/en/) DAI stablecoin architecture

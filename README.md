@@ -26,7 +26,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 ```shell 
  ├── script                                                           # Deployment and network configuration scripts 
  │   ├── DeployDSC.s.sol                                              # Main deployment script for the Decentralized Stablecoin protocol
- │   └── HelperConfig.s.sol                                           # Network-specific configuration                                                                                     
+ │   └── HelperConfig.s.sol                                           # Network-specific configuration (price feeds, collateral tokens, etc.)                                                                                     
 ```
 
  

@@ -23,6 +23,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 
 ## Project Structure
+├── script    
 
  
 ## Security Considerations

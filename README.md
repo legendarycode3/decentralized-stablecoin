@@ -50,7 +50,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   └── openzeppelin-contracts/                                      # OpenZeppelin audited contract library
  │
  ├── foundry.toml                                                     # Foundry project configuration
- ├── Makefile 
+ ├── Makefile                                                         # Build, test, deployment, and
  └── README.md                                                        # Project documentation
 ```
 

@@ -49,6 +49,9 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 
 
+## Resources
+
+
 ## Acknowledgments
 * Built with [Foundry](https://github.com/foundry-rs/foundry) toolkit
 * Uses [Chainlink](https://chain.link/) decentralized oracles

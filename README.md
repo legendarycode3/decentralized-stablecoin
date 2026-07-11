@@ -35,7 +35,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   │   ├── Handler.t.sol                                            # Handler contract used for invariant fuzz testing
  │   │   └── Invariants.t.sol                                         # Invariant tests validating protocol-wide properties
  │   │
- │   ├── mocks
+ │   ├── mocks                                                        # Mock contracts for local
 ```
 
  

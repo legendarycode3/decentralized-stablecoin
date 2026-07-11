@@ -36,7 +36,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
  │   │   └── Invariants.t.sol                                         # Invariant tests validating protocol-wide properties
  │   │
  │   ├── mocks                                                        # Mock contracts for local development and testing
- │   │   ├── ERC20Mock.sol
+ │   │   ├── ERC20Mock.sol                                            # Mock ERC20 collateral token
 ```
 
  

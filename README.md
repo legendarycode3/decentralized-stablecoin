@@ -40,6 +40,9 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
      make install
    ```
 3. Build the project/contract:
+   ```shell
+     make build
+   ```
 
 
 ## Project Structure

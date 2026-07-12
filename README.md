@@ -29,6 +29,9 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 ### Installation
  1. Clone the repository:
+    ```shell
+        git clone https://github.com/legendarycode3/decentralized-stablecoin
+    ```
 
 
 ## Project Structure

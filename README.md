@@ -28,7 +28,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
      * Verify installation: `git --version`
 
 ### Installation
- 
+ 1. Clone the repository:
 
 
 ## Project Structure

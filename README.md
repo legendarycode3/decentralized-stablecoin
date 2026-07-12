@@ -15,7 +15,9 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 * **OpenZeppelin Security:** Built on audited OpenZeppelin ERC20 and access  control contracts.
 
 
+
 ## Technology Stack (Technologies Used)
+
 
 
 ## Getting Started
@@ -24,6 +26,10 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
     * Verify installation: `forge --version`
 * [GIT](https://git-scm.com/) - - Version control
      * Verify installation: `git --version`
+
+### Installation
+ 
+
 
 ## Project Structure
 ```shell 

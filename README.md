@@ -20,7 +20,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 ## Getting Started
 ### Prerequisites
-* [FOUNDRY](https://www.getfoundry.sh/introduction/installation)
+* [FOUNDRY](https://www.getfoundry.sh/introduction/installation) - Ethereum development toolchain
 
 
 ## Project Structure

@@ -21,7 +21,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 ## Getting Started
 ### Prerequisites
 * [FOUNDRY](https://www.getfoundry.sh/introduction/installation) - Ethereum development toolchain
-
+* [GIT](https://git-scm.com/)
 
 ## Project Structure
 ```shell 

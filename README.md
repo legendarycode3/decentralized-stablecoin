@@ -19,7 +19,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 
 ## Getting Started
-
+### Prerequisites
 
 
 ## Project Structure

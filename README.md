@@ -35,6 +35,10 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
     ```shell
         cd decentralized-stablecoin
     ```
+2. Install dependencies:
+   ```shell
+     make install
+   ```
 
 
 ## Project Structure

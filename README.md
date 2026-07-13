@@ -140,7 +140,7 @@ Create .env file in project root: </br>
 
 
 ### Recommended Practices
-Always maintain health factor greater than "1.0". Users are encouraged to keep it well above 1.0 (e.g., above 1.5) 
+Always maintain health factor greater than "1.0". Users are encouraged to keep it well above 1.0 (e.g., above 1.5) as a safety buffer against market volatility. 
 
 
 ### Audit Status

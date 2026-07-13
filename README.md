@@ -76,6 +76,8 @@ Create .env file in project root: </br>
 
    # Generate coverage report
    forge coverage
+
+   # Run invariant tests
 ```
 
 

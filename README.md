@@ -70,6 +70,8 @@ Create .env file in project root: </br>
 
    # Run with gas reporting
    forge test --gas-report
+
+   # Run specific test file
 ```
 
 

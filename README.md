@@ -64,7 +64,9 @@ Create .env file in project root: </br>
 ```shell
    # Run all tests
    forge test
+
    # Run with verbosity
+   forge test -vvv
 ```
 
 

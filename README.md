@@ -144,7 +144,7 @@ Create .env file in project root: </br>
 * Monitor collateral prices and adjust positions proactively.
 * Use `getHealthFactor()` before large redemptions.
 * Consider gas costs  when liquidating small positions.
-* Deposit additional collateral if your health factor approaches the minimum threshold. Acting proactively is generally
+* Deposit additional collateral if your health factor approaches the minimum threshold. Acting proactively is generally preferable to waiting until liquidation becomes imminent.
 
 
 ### Audit Status

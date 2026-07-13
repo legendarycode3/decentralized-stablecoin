@@ -45,6 +45,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
    ```
 
 ### Environment Setup
+Create .env file in project root:
 
 
 

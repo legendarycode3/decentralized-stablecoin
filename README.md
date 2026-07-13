@@ -72,6 +72,7 @@ Create .env file in project root: </br>
    forge test --gas-report
 
    # Run specific test file
+   forge test --mt test/unit/DSCEngineTest.t.sol
 ```
 
 

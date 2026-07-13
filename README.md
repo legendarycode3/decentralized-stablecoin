@@ -145,6 +145,7 @@ Create .env file in project root: </br>
 * Use `getHealthFactor()` before large redemptions.
 * Consider gas costs  when liquidating small positions.
 * Deposit additional collateral if your health factor approaches the minimum threshold. Acting proactively is generally preferable to waiting until liquidation becomes imminent.
+* Avoid borrowing the maximum
 
 
 ### Audit Status

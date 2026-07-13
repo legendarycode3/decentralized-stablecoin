@@ -52,7 +52,7 @@ Create .env file in project root: </br>
       ETHERSCAN_SEPOLIA_API_KEY=your_etherscan_api_key
    ```
 2. ****Get testnet ETH:**** </br>
-
+      * ETH Sepolia Faucet:
 
 
 

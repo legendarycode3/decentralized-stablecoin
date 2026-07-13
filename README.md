@@ -147,6 +147,7 @@ Create .env file in project root: </br>
 * Deposit additional collateral if your health factor approaches the minimum threshold. Acting proactively is generally preferable to waiting until liquidation becomes imminent.
 * Avoid borrowing the maximum amount permitted by your collateral. Leaving unused borrowing capacity can help absorb unexpected market movements without immediately putting your position at risk.
 * Understand the protocol's liquidation mechanism before minting stablecoins. Familiarity with liquidation thresholds, bonuses, and repayment requirements helps you make informed borrowing decisions.
+* Read the project
 
 
 ### Audit Status

@@ -140,7 +140,7 @@ Create .env file in project root: </br>
 
 
 ### Recommended Practices
-Always maintain health factor 
+Always maintain health factor greater than "1.0". Users are encouraged
 
 
 ### Audit Status

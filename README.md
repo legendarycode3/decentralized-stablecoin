@@ -75,6 +75,7 @@ Create .env file in project root: </br>
    forge test --mt test/unit/DSCEngineTest.t.sol
 
    # Generate coverage report
+   forge coverage
 ```
 
 

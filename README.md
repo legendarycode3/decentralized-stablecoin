@@ -69,6 +69,7 @@ Create .env file in project root: </br>
    forge test -vvv
 
    # Run with gas reporting
+   forge test --gas-report
 ```
 
 

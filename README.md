@@ -58,7 +58,10 @@ Create .env file in project root: </br>
 ## Usage
 
 
+
 ## Testing
+### Running Tests
+
 
 ### Running Tests
 
@@ -109,12 +112,8 @@ Create .env file in project root: </br>
 * ****Immutable Core Dependencies:**** The stablecoin contract address is stored as an immutable variable during deployment and cannot be modified afterward. This prevents administrative replacement of the stablecoin contract reducing governance risks and ensuring users always interact with the originally deployed system.
 * ****Precision-Safe Arithmetic:**** The protocol performs all financial calculations using fixed-point arithmetic with standardized precision constants. This avoids floating-point inaccuracies while minimizing rounding errors during collateral valuation, health factor calculations, and liquidation logic.
 
-### Audit Status
-****⚠️ NOT AUDITED**** - Do not deploy to mainnet or use with real funds without professional security audit.
 
-
-
-## Known Risks & Assumptions
+### Known Risks & Assumptions
 * ****Oracle Dependency:**** The protocol depends on external Chainlink price feeds for collateral valuation. Although stale price checks reduce oracle-related risks, prolonged oracle outages, delayed updates, or unexpected oracle failures could temporarily affect collateral valuation and liquidation functionality. The protocol assumes trusted oracle infrastructure remains available and operational.
 * ****Fee-on-Transfer Token Compatibility:**** The protocol assumes supported collateral tokens transfer the exact amount requested during deposits and withdrawals. Fee-on-transfer, rebasing, or deflationary ERC-20 tokens may result in discrepancies between recorded collateral balances and actual token balances held by the protocol. Only standard ERC-20 collateral assets should be supported unless additional accounting logic is implemented.
 * ****Extreme Market Conditions:**** The liquidation mechanism assumes collateral maintains sufficient value to incentivize liquidators. During severe market crashes where collateral value falls below outstanding debt, liquidations may become economically unattractive, potentially resulting in protocol bad debt. This limitation is common among overcollateralized lending protocols and should be considered when selecting supported collateral assets and liquidation parameters.
@@ -122,6 +121,10 @@ Create .env file in project root: </br>
 * ****No Emergency Pause Mechanism:**** The protocol intentionally operates without an emergency pause or circuit breaker. While this increases decentralization by eliminating privileged administrative intervention, it also means protocol operations cannot be temporarily suspended in the event of unexpected vulnerabilities, oracle failures, or ecosystem-wide incidents.
 * ****Governance Assumptions:**** The current implementation assumes the set of supported collateral assets and their associated price feeds remain fixed after deployment. Since no governance mechanism exists to modify protocol parameters, any future changes would require deploying a new version of the protocol. This immutable design minimizes governance risk but reduces operational flexibility.
 * ****User Responsibility:**** Users remain responsible for monitoring their own health factor and maintaining sufficient collateralization. Significant market volatility may rapidly reduce collateral value, causing positions to become eligible for liquidation. The protocol does not automatically rebalance user positions or provide protection against liquidation resulting from market movements.
+
+
+### Audit Status
+****⚠️ NOT AUDITED**** - Do not deploy to mainnet or use with real funds without professional security audit.
 
 
 

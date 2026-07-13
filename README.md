@@ -67,6 +67,8 @@ Create .env file in project root: </br>
 
    # Run with verbosity
    forge test -vvv
+
+   # Run with gas reporting
 ```
 
 

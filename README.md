@@ -143,7 +143,8 @@ Create .env file in project root: </br>
 * Always maintain health factor greater than "1.0". Users are encouraged to keep it well above 1.0 (e.g., above 1.5) as a safety buffer against market volatility.
 * Monitor collateral prices and adjust positions proactively.
 * Use `getHealthFactor()` before large redemptions.
-* Consider gas costs  when liquidating small positions
+* Consider gas costs  when liquidating small positions.
+* Deposit additional collateral
 
 
 ### Audit Status

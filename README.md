@@ -49,6 +49,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 Create .env file in project root: </br>
    ```shell
       SEPOLIA_RPC_URL=your_sepolia_rpc_url
+      ETHERSCAN_SEPOLIA_API_KEY=your_etherscan_api_key
    ```
 
 

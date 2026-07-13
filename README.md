@@ -146,7 +146,7 @@ Create .env file in project root: </br>
 * Consider gas costs  when liquidating small positions.
 * Deposit additional collateral if your health factor approaches the minimum threshold. Acting proactively is generally preferable to waiting until liquidation becomes imminent.
 * Avoid borrowing the maximum amount permitted by your collateral. Leaving unused borrowing capacity can help absorb unexpected market movements without immediately putting your position at risk.
-* Understand the protocol's
+* Understand the protocol's liquidation mechanism before minting stablecoins.
 
 
 ### Audit Status

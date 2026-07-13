@@ -46,7 +46,10 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 ### Environment Setup
 1. ****Configure your .env file:**** </br>
-Create .env file in project root:
+Create .env file in project root: </br>
+   ```shell
+      SEPOLIA_RPC_URL=your_sepolia_rpc_url
+   ```
 
 
 

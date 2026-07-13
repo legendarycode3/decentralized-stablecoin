@@ -60,6 +60,8 @@ Create .env file in project root: </br>
 
 ## Testing
 
+### Running Tests
+
 
 
 ## Project Structure

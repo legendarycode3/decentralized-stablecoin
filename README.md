@@ -63,6 +63,7 @@ Create .env file in project root: </br>
 ### Running Tests
 ```shell
    # Run all tests
+   forge test
 ```
 
 

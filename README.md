@@ -73,6 +73,8 @@ Create .env file in project root: </br>
 
    # Run specific test file
    forge test --mt test/unit/DSCEngineTest.t.sol
+
+   # Generate coverage report
 ```
 
 

@@ -22,6 +22,7 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 * Automated health factor calculations to monitor account solvency.
 * Liquidation mechanism for undercollateralized positions with liquidator incentives.
 * Chainlink price feeds for secure, decentralized asset pricing.
+* Reentrancy protection
 
 
 ## Architecture 

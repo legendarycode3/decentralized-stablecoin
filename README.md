@@ -23,6 +23,7 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 * Liquidation mechanism for undercollateralized positions with liquidator incentives.
 * Chainlink price feeds for secure, decentralized asset pricing.
 * Reentrancy protection and Checks-Effects-Interactions (CEI) pattern for enhanced security.
+* Modular architecture separating
 
 
 ## Architecture 

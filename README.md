@@ -8,7 +8,7 @@ The `Decentralized Stablecoin (DSC)` is a decentralized, overcollateralized, cry
 The protocol maintains solvency through overcollateralization, real-time price feeds provided by Chainlink oracles, and an automated liquidation mechanism that ensures every DSC token remains sufficiently backed by on-chain collateral. </br>
 
 The system consists of two primary smart contracts: </br>
-* ****DSCEngine****: The core protocol contract
+* ****DSCEngine****: The core protocol contract responsible for collateral management,
 
 
 

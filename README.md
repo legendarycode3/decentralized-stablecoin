@@ -4,7 +4,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 
 ## Project Overview
-The `Decentralized Stablecoin (DSC)` is a decentralized, overcollateralized, crypto-backed stablecoin protocol
+The `Decentralized Stablecoin (DSC)` is a decentralized, overcollateralized, crypto-backed stablecoin protocol inspired by the core principles
 
 
 

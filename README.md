@@ -16,6 +16,7 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 
 ### Key Features
 * Deposit approved collateral assets(e.g., WETH and WBTC).
+* Mint a USD-pegged decentralized
 
 
 ## Architecture 

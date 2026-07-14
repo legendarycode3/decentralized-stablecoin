@@ -18,6 +18,7 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 * Deposit approved collateral assets(e.g., WETH and WBTC).
 * Mint a USD-pegged decentralized stablecoin backed by crypto collateral.
 * Redeem collateral by repaying outstanding DSC debt.
+* Burn DSC to reduce debt obligations.
 
 
 ## Architecture 

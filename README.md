@@ -11,7 +11,7 @@ The system consists of two primary smart contracts: </br>
 * ****`DSCEngine`****: The core protocol contract responsible for collateral management, DSC minting and burning, health factor calculations, collateral redemption, and liquidations.
 * ****`DecentralizedStableCoin (DSC)`****: An ERC-20 compliant stablecoin contract whose minting and burning are exclusively controlled by the `DSCEngine`, ensuring that new DSC can only be created when sufficient collateral has been deposited.
 
-The protocol is designed with a modular architecture, leveraging OpenZeppelin security standards, Chainlink decentralized price feeds, and a health factor model to maintain protocol solvency and
+The protocol is designed with a modular architecture, leveraging OpenZeppelin security standards, Chainlink decentralized price feeds, and a health factor model to maintain protocol solvency and safeguard user funds.
 By enforcing collateralization thresholds and continuously monitoring user positions through oracle price data, the protocol minimizes insolvency risk while providing a decentralized alternative to traditional stablecoins.
 
 

@@ -14,6 +14,9 @@ The system consists of two primary smart contracts: </br>
 By enforcing collateralization thresholds and continuously monitoring user positions through oracle price data, the protocol minimizes insolvency risk while providing a decentralized alternative to traditional stablecoins.
 
 
+### Key Features
+
+
 
 ## Architecture 
 

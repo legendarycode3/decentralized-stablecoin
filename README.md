@@ -1,11 +1,11 @@
 # Decentralized Stablecoin
-A decentralized,  overcollateralized stablecoin  protocol that enables users to deposit WETH or WBTC as collateral and mint a USD-pegged stablecoin. The protocol maintains stability through collateralization, health factor enforcement,  liquidation mechanisms, and decentralized price feeds powered by Chainlink. </br>
-The protocol maintains
+A decentralized,  overcollateralized stablecoin  protocol that enables users to deposit WETH or WBTC as collateral and mint a USD-pegged stablecoin. The protocol maintains stability through collateralization, health factor enforcement,  liquidation mechanisms, and decentralized price feeds powered by Chainlink.
 
 
 
 ## Project Overview
-The `Decentralized Stablecoin (DSC)` is a decentralized, overcollateralized, crypto-backed stablecoin protocol inspired by the core principles of MakerDAO's DAI system. The protocol enables users to deposit approved cryptocurrency collateral, mint a USD-pegged stablecoin (DSC), redeem collateral, repay debt, and participate in liquidations, all without relying on centralized custodians.
+The `Decentralized Stablecoin (DSC)` is a decentralized, overcollateralized, crypto-backed stablecoin protocol inspired by the core principles of MakerDAO's DAI system. The protocol enables users to deposit approved cryptocurrency collateral, mint a USD-pegged stablecoin (DSC), redeem collateral, repay debt, and participate in liquidations, all without relying on centralized custodians. </br>
+The protocol maintains solvency through overcollateralization,
 
 
 

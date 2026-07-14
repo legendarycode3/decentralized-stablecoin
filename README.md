@@ -20,6 +20,7 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 * Redeem collateral by repaying outstanding DSC debt.
 * Burn DSC to reduce debt obligations.
 * Automated health factor calculations to monitor account solvency.
+* Liquidation mechanism
 
 
 ## Architecture 

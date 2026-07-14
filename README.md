@@ -18,7 +18,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
-* ****Foundry**** :
+* ****Foundry**** : Development framework and testing suite.
 
 
 

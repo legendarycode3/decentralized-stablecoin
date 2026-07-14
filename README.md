@@ -17,6 +17,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 
 ## Technology Stack (Technologies Used)
+* ****Solidity**** :
 
 
 

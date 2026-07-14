@@ -19,6 +19,7 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 * Mint a USD-pegged decentralized stablecoin backed by crypto collateral.
 * Redeem collateral by repaying outstanding DSC debt.
 * Burn DSC to reduce debt obligations.
+* Automated health factor calculations
 
 
 ## Architecture 

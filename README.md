@@ -5,7 +5,7 @@ A decentralized,  overcollateralized stablecoin  protocol that enables users to 
 
 ## Project Overview
 The `Decentralized Stablecoin (DSC)` is a decentralized, overcollateralized, crypto-backed stablecoin protocol inspired by the core principles of MakerDAO's DAI system. The protocol enables users to deposit approved cryptocurrency collateral, mint a USD-pegged stablecoin (DSC), redeem collateral, repay debt, and participate in liquidations, all without relying on centralized custodians. </br>
-The protocol maintains solvency through overcollateralization, real-time price feeds provided by Chainlink oracles, and an automated liquidation mechanism
+The protocol maintains solvency through overcollateralization, real-time price feeds provided by Chainlink oracles, and an automated liquidation mechanism that ensures every DSC token
 
 
 

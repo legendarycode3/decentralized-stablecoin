@@ -15,7 +15,7 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 
 
 ### Key Features
-
+* Deposit approved collateral assets
 
 
 ## Architecture 

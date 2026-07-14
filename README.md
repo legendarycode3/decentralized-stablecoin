@@ -58,6 +58,7 @@ Create .env file in project root: </br>
 
  ⚠️ **Security Warning:**
   * Never commit your `.env` file.
+  * Never use your mainnet private key for testing.
 
 
 ## Usage

@@ -21,7 +21,7 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 * Burn DSC to reduce debt obligations.
 * Automated health factor calculations to monitor account solvency.
 * Liquidation mechanism for undercollateralized positions with liquidator incentives.
-* Chainlink price feeds for secure,
+* Chainlink price feeds for secure, decentralized asset pricing.
 
 
 ## Architecture 

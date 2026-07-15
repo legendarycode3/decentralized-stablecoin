@@ -100,6 +100,7 @@ The protocol is built around a modular architecture that separates token issuanc
      * Collateral valuation.
      * Health factor calculation.
      * Minting limits.
+     * Liquidation eligibility
                         
 
 

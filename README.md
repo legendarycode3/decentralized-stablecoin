@@ -32,6 +32,41 @@ The protocol is built around a modular architecture that separates token issuanc
                         +---------------------------+
                         |         User              |
                         +------------+--------------+
+                                     |
+             Deposit Collateral / Mint / Burn / Redeem
+                                     |
+                                     v
+                    +-------------------------------+
+                    |          DSCEngine            |
+                    |-------------------------------|
+                    | • Collateral Management       |
+                    | • Mint DSC                    |
+                    | • Burn DSC                    |
+                    | • Health Factor               |
+                    | • Liquidations                |
+                    | • Oracle Price Validation     |
+                    +-----+-------------------+-----+
+                          |                   |
+            Chainlink     |                   | Mint / Burn
+            Price Feeds   |                   |
+                          v                   v
+               +----------------+     +-------------------------+
+               |   OracleLib    |     | DecentralizedStableCoin |
+               |----------------|     |-------------------------|
+               | Stale Price    |     | ERC20 Token             |
+               | Validation     |     | Mint                    |
+               +----------------+     | Burn                    |
+                                      +-----------+-------------+
+                                                  |
+                                                  |
+                                        +---------v---------+
+                                        |   Users Hold DSC  |
+                                        +-------------------+
+
+                Supported Collateral
+        +----------------+   +----------------+
+        |      WETH      |   |      WBTC      |
+        +----------------+   +----------------+
 
 
 

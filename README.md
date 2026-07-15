@@ -94,7 +94,7 @@ The protocol is built around a modular architecture that separates token issuanc
     * Stale price protection.
     * Secure oracle reads.
     * Standardized price retrieval. </br>
-  By validating oracle freshness, the protocol avoids making
+  By validating oracle freshness, the protocol avoids making decisions using outdated market prices.
 
                         
 
@@ -111,7 +111,7 @@ The protocol is built around a modular architecture that separates token issuanc
 * **Permissionless User Interactions:** Users can deposit collateral, mint DSC, redeem collateral, and participate in liquidations.
 * **Gas Optimized:** Uses custom errors and efficient Solidity patterns to reduce gas costs.
 * **Comprehensive Testing:** Includes unit, fuzz, and invariant tests built with Foundry.
-* **OpenZeppelin Security:** Built on audited OpenZeppelin ERC20 and access  control contracts.
+* **OpenZeppelin Security:** Built on audited OpenZeppelin ERC20 and access  control contracts. 
 
 
 

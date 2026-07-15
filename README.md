@@ -129,6 +129,20 @@ DecentralizedStableCoin
 User receives DSC
 ```
 When a user repays debt: </br>
+```shell
+    User
+ │
+ │ Burn DSC
+ ▼
+DSCEngine
+ │
+ ├── Reduces debt
+ ├── Updates Health Factor
+ └── Releases collateral
+       │
+       ▼
+Collateral returned
+```
 
 
 

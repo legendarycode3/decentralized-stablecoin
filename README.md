@@ -78,6 +78,7 @@ The protocol is built around a modular architecture that separates token issuanc
    * Redeeming collateral.
    * Monitoring user health factors.
    * Calculating collateral values.
+   * Executing liquidations.
 2. ****DecentralizedStableCoin****
                         
 

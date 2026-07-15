@@ -82,7 +82,7 @@ The protocol is built around a modular architecture that separates token issuanc
    * Integrating with Chainlink price feeds.
    * Enforcing protocol collateralization rules. </br>
    This contract is the only contract permitted to mint or burn DSC.
-2. ****DecentralizedStableCoin**** `DecentralizedStableCoin` is a standard ERC20 token that</br>
+2. ****DecentralizedStableCoin**** `DecentralizedStableCoin` is a standard ERC20 token that represents the protocol's stablecoin.</br>
 
                         
 

@@ -80,7 +80,8 @@ The protocol is built around a modular architecture that separates token issuanc
    * Calculating collateral values.
    * Executing liquidations.
    * Integrating with Chainlink price feeds.
-   * Enforcing protocol collateralization rules.
+   * Enforcing protocol collateralization rules. </br>
+   This contract is the only contract
 2. ****DecentralizedStableCoin****
                         
 

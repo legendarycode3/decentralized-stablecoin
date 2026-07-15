@@ -97,7 +97,9 @@ The protocol is built around a modular architecture that separates token issuanc
   By validating oracle freshness, the protocol avoids making decisions using outdated market prices.
 4. ****Chainlink Price Feeds:**** The protocol relies on Chainlink decentralized oracles to determine the USD value of supported collateral assets. </br>
   Price data is used for: </br>
-     * Collateral valuation
+     * Collateral valuation.
+     * Health factor calculation.
+     * Minting limits.
                         
 
 

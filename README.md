@@ -101,7 +101,8 @@ The protocol is built around a modular architecture that separates token issuanc
      * Health factor calculation.
      * Minting limits.
      * Liquidation eligibility.
-     * Collateral redemption
+     * Collateral redemption. </br>
+5. Supported Collateral
                         
 
 

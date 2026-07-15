@@ -72,7 +72,7 @@ The protocol is built around a modular architecture that separates token issuanc
 
 ### Core Components
 1. ****DSCEngine**** The `DSCEngine` is the core of the protocol. It manages all business logic and maintains the protocol's solvency. </br>
-   Its responsibilities include: </br>
+  Its responsibilities include: </br>
 * Managing collateral deposits.
    * Minting and burning DSC.
    * Redeeming collateral.
@@ -83,6 +83,7 @@ The protocol is built around a modular architecture that separates token issuanc
    * Enforcing protocol collateralization rules. </br>
    This contract is the only contract permitted to mint or burn DSC.
 2. ****DecentralizedStableCoin**** `DecentralizedStableCoin` is a standard ERC20 token that represents the protocol's stablecoin.</br>
+  Its responsibilities are intentionally minimal: </br>  
 
                         
 

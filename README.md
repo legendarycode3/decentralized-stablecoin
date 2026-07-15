@@ -104,6 +104,7 @@ The protocol is built around a modular architecture that separates token issuanc
      * Collateral redemption. </br>
 5. ****Supported Collateral:**** The protocol accepts only whitelisted collateral assets.  </br>
   Examples include: </br>
+      * Wrapped Ether (WETH)
                         
 
 

@@ -84,8 +84,9 @@ The protocol is built around a modular architecture that separates token issuanc
    This contract is the only contract permitted to mint or burn DSC.
 2. ****DecentralizedStableCoin**** `DecentralizedStableCoin` is a standard ERC20 token that represents the protocol's stablecoin.</br>
   Its responsibilities are intentionally minimal: </br>
-  * ERC20 transfers
-  * Minting
+  * ERC20 transfers.
+  * Minting.
+  * Burning.
 
                         
 

@@ -71,7 +71,7 @@ The protocol is built around a modular architecture that separates token issuanc
 ```
 
 ### Core Components
-1. ****DSCEngine****
+1. ****DSCEngine**** The `DSCEngine`
                         
 
 

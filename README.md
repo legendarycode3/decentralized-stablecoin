@@ -29,7 +29,8 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 
 ## Architecture 
 The protocol is built around a modular architecture that separates token issuance from protocol logic. This design improves security, maintainability, and extensibility by ensuring each contract has a single responsibility.
-                        +---------------------------+
+```shell
+                            +---------------------------+
                         |         User              |
                         +------------+--------------+
                                      |
@@ -67,6 +68,10 @@ The protocol is built around a modular architecture that separates token issuanc
         +----------------+   +----------------+
         |      WETH      |   |      WBTC      |
         +----------------+   +----------------+
+```
+
+### Core Components
+                        
 
 
 

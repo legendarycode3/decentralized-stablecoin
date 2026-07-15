@@ -110,6 +110,24 @@ The protocol is built around a modular architecture that separates token issuanc
 
 
 ### Protocol Flow
+```shell
+    User
+ │
+ │ Deposit WETH/WBTC
+ ▼
+DSCEngine
+ │
+ ├── Stores collateral
+ ├── Calculates USD value
+ ├── Checks Health Factor
+ └── Mints DSC
+       │
+       ▼
+DecentralizedStableCoin
+       │
+       ▼
+User receives DSC
+```
 
 
 

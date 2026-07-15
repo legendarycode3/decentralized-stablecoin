@@ -111,7 +111,7 @@ The protocol is built around a modular architecture that separates token issuanc
 
 ### Protocol Flow
 ```shell
-    User
+User
  │
  │ Deposit WETH/WBTC
  ▼
@@ -130,7 +130,7 @@ User receives DSC
 ```
 When a user repays debt: </br>
 ```shell
-    User
+User
  │
  │ Burn DSC
  ▼
@@ -143,6 +143,7 @@ DSCEngine
        ▼
 Collateral returned
 ```
+If a user's collateral becomes insufficient:
 
 
 

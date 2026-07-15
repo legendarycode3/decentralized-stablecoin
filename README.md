@@ -91,6 +91,7 @@ The protocol is built around a modular architecture that separates token issuanc
   Instead, ownership is transferred to the `DSCEngine`, ensuring DSC can only be minted when sufficient collateral exists.
 3. ****OracleLib**** `OracleLib` is a utility library responsible for interacting safely with Chainlink price feeds. </br>
   It provides: </br>
+  * Stale price protection
 
                         
 

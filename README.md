@@ -95,7 +95,7 @@ The protocol is built around a modular architecture that separates token issuanc
     * Secure oracle reads.
     * Standardized price retrieval. </br>
   By validating oracle freshness, the protocol avoids making decisions using outdated market prices.
-4. ****Chainlink Price Feeds:**** The protocol relies on Chainlink
+4. ****Chainlink Price Feeds:**** The protocol relies on Chainlink decentralized oracles to determine
                         
 
 

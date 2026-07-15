@@ -75,6 +75,7 @@ The protocol is built around a modular architecture that separates token issuanc
    Its responsibilities include: </br>
    * Managing collateral deposits.
    * Minting and burning DSC.
+   * Redeeming collateral.
 2. ****DecentralizedStableCoin****
                         
 

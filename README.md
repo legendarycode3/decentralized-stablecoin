@@ -143,7 +143,17 @@ DSCEngine
        ▼
 Collateral returned
 ```
-If a user's collateral becomes insufficient:
+If a user's collateral becomes insufficient: </br>
+```shell
+    Health Factor < 1
+        │
+        ▼
+Liquidator repays DSC
+        │
+        ▼
+Receives user's collateral
+      + bonus
+```
 
 
 

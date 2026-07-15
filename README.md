@@ -89,7 +89,7 @@ The protocol is built around a modular architecture that separates token issuanc
   * Burning. </br>
   The contract does not contain collateral logic or price calculations. </br>
   Instead, ownership is transferred to the `DSCEngine`, ensuring DSC can only be minted when sufficient collateral exists.
-3. ****OracleLib****
+3. ****OracleLib**** `OracleLib` is a utility
 
                         
 

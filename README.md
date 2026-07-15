@@ -128,6 +128,7 @@ DecentralizedStableCoin
        ▼
 User receives DSC
 ```
+When a user repays debt: </br>
 
 
 

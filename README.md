@@ -81,7 +81,7 @@ The protocol is built around a modular architecture that separates token issuanc
    * Executing liquidations.
    * Integrating with Chainlink price feeds.
    * Enforcing protocol collateralization rules. </br>
-   This contract is the only contract
+   This contract is the only contract permitted to mint or burn DSC.
 2. ****DecentralizedStableCoin****
                         
 

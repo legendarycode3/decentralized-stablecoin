@@ -94,7 +94,7 @@ The protocol is built around a modular architecture that separates token issuanc
     * Stale price protection.
     * Secure oracle reads.
     * Standardized price retrieval. </br>
-  By validating oracle freshness,
+  By validating oracle freshness, the protocol avoids making
 
                         
 

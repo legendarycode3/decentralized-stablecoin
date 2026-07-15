@@ -71,7 +71,7 @@ The protocol is built around a modular architecture that separates token issuanc
 ```
 
 ### Core Components
-1. ****DSCEngine**** The `DSCEngine` is the core of the protocol. It manages all business logic and maintains the protocol's solvency. </br>
+1. ****DSCEngine:**** The `DSCEngine` is the core of the protocol. It manages all business logic and maintains the protocol's solvency. </br>
   Its responsibilities include: </br>
    * Managing collateral deposits.
    * Minting and burning DSC.
@@ -82,20 +82,20 @@ The protocol is built around a modular architecture that separates token issuanc
    * Integrating with Chainlink price feeds.
    * Enforcing protocol collateralization rules. </br>
    This contract is the only contract permitted to mint or burn DSC.
-2. ****DecentralizedStableCoin**** `DecentralizedStableCoin` is a standard ERC20 token that represents the protocol's stablecoin.</br>
+2. ****DecentralizedStableCoin:**** `DecentralizedStableCoin` is a standard ERC20 token that represents the protocol's stablecoin.</br>
   Its responsibilities are intentionally minimal: </br>
     * ERC20 transfers.
     * Minting.
     * Burning. </br>
   The contract does not contain collateral logic or price calculations. </br>
   Instead, ownership is transferred to the `DSCEngine`, ensuring DSC can only be minted when sufficient collateral exists.
-3. ****OracleLib**** `OracleLib` is a utility library responsible for interacting safely with Chainlink price feeds. </br>
+3. ****OracleLib:**** `OracleLib` is a utility library responsible for interacting safely with Chainlink price feeds. </br>
   It provides: </br>
     * Stale price protection.
     * Secure oracle reads.
     * Standardized price retrieval. </br>
   By validating oracle freshness, the protocol avoids making decisions using outdated market prices.
-4. ****Chainlink Price Feeds****
+4. ****Chainlink Price Feeds:**** The protocol relies on Chainlink
                         
 
 

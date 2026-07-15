@@ -86,7 +86,8 @@ The protocol is built around a modular architecture that separates token issuanc
   Its responsibilities are intentionally minimal: </br>
   * ERC20 transfers.
   * Minting.
-  * Burning.
+  * Burning. </br>
+  The contract does not
 
                         
 

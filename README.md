@@ -87,7 +87,8 @@ The protocol is built around a modular architecture that separates token issuanc
   * ERC20 transfers.
   * Minting.
   * Burning. </br>
-  The contract does not contain collateral logic or price calculations.
+  The contract does not contain collateral logic or price calculations. </br>
+  Instead, ownership is
 
                         
 

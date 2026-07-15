@@ -72,6 +72,7 @@ The protocol is built around a modular architecture that separates token issuanc
 
 ### Core Components
 1. ****DSCEngine**** The `DSCEngine` is the core of the protocol. It manages all business logic and maintains the protocol's solvency.
+   Its responsibilities include: </br>
 2. ****DecentralizedStableCoin****
                         
 

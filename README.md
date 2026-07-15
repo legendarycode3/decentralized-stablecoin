@@ -106,7 +106,7 @@ The protocol is built around a modular architecture that separates token issuanc
   Examples include: </br>
       * Wrapped Ether (WETH).
       * Wrapped Bitcoin (WBTC). </br>
-  Each supported token has an
+  Each supported token has an associated Chainlink price feed
                         
 
 

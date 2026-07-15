@@ -74,6 +74,7 @@ The protocol is built around a modular architecture that separates token issuanc
 1. ****DSCEngine**** The `DSCEngine` is the core of the protocol. It manages all business logic and maintains the protocol's solvency. </br>
    Its responsibilities include: </br>
    * Managing collateral deposits.
+   * Minting and burning DSC.
 2. ****DecentralizedStableCoin****
                         
 

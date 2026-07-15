@@ -28,6 +28,8 @@ By enforcing collateralization thresholds and continuously monitoring user posit
 
 
 ## Architecture 
+The protocol is built
+
 
 
 ## Features

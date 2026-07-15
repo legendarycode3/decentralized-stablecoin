@@ -84,15 +84,17 @@ The protocol is built around a modular architecture that separates token issuanc
    This contract is the only contract permitted to mint or burn DSC.
 2. ****DecentralizedStableCoin**** `DecentralizedStableCoin` is a standard ERC20 token that represents the protocol's stablecoin.</br>
   Its responsibilities are intentionally minimal: </br>
-  * ERC20 transfers.
-  * Minting.
-  * Burning. </br>
+    * ERC20 transfers.
+    * Minting.
+    * Burning. </br>
   The contract does not contain collateral logic or price calculations. </br>
   Instead, ownership is transferred to the `DSCEngine`, ensuring DSC can only be minted when sufficient collateral exists.
 3. ****OracleLib**** `OracleLib` is a utility library responsible for interacting safely with Chainlink price feeds. </br>
   It provides: </br>
-  * Stale price protection.
-  * Secure oracle reads
+    * Stale price protection.
+    * Secure oracle reads.
+    * Standardized price retrieval. </br>
+  By validating oracle freshness,
 
                         
 

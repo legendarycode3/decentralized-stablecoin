@@ -282,6 +282,7 @@ Create .env file in project root: </br>
 
 
 ## Gas Optimization
+* ****Custom Errors****:
 
 
  

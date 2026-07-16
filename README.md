@@ -287,6 +287,7 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****Immutable Variables****: Stores the `DecentralizedStableCoin` contract address as an immutable variable, allowing the compiler to embed the value directly into the contract bytecode and eliminating expensive storage reads after deployment.
 * ****Constant Variables****: Defines protocol configuration values such as precision, liquidation threshold, and liquidation bonus as constants, enabling compile-time substitution and removing the need for runtime storage access.
 * ****Checks-Effects-Interactions (CEI) Pattern****: Updates the protocol's internal state before interacting with external contracts, reducing the risk of reentrancy attacks while avoiding unnecessary state rewrites caused by failed external calls.
+* ****Reentrancy Protection****:
 
 
  

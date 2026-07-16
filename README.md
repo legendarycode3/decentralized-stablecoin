@@ -304,7 +304,7 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****ERC-20 Transfer Validation:**** All ERC-20 token transfers verify the success of external transfer operations before continuing execution. Transactions immediately revert if a transfer fails, preventing inconsistent accounting or partially completed operations that could otherwise compromise protocol integrity.
 * ****Immutable Core Dependencies:**** The stablecoin contract address is stored as an immutable variable during deployment and cannot be modified afterward. This prevents administrative replacement of the stablecoin contract reducing governance risks and ensuring users always interact with the originally deployed system.
 * ****Precision-Safe Arithmetic:**** The protocol performs all financial calculations using fixed-point arithmetic with standardized precision constants. This avoids floating-point inaccuracies while minimizing rounding errors during collateral valuation, health factor calculations, and liquidation logic.
-* ****Oracle Library Abstraction****: Centralizes Chainlink oracle interactions within `OracleLib`, preventing duplicated validation logic across the protocol while reducing contract size
+* ****Oracle Library Abstraction****: Centralizes Chainlink oracle interactions within `OracleLib`, preventing duplicated validation logic across the protocol while reducing contract size and improving maintainability.
 
   
 

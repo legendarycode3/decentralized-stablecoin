@@ -282,7 +282,7 @@ Create .env file in project root: </br>
 
 
 ## Gas Optimization
-* ****Custom Errors****: Replaces traditional revert strings with Solidity custom errors,
+* ****Custom Errors****: Replaces traditional revert strings with Solidity custom errors, significantly reducing
 
 
  

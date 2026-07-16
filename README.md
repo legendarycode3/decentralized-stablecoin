@@ -290,6 +290,9 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****Reentrancy Protection****: Utilizes OpenZeppelin's `ReentrancyGuard` on critical functions to prevent nested contract calls from manipulating protocol state during execution, improving both security and transaction reliability.
 * ****Internal Function Reuse****: Consolidates common logic into reusable internal helper functions such as `_burnDsc()`, `_redeemCollateral()`, `_healthFactor()`,and `_calculateHealthFactor()`, minimizing duplicated bytecode and lowering deployment costs.  
 * ****Cached Storage Reads****: Reads frequently accessed storage values once into local variables before performing calculations, reducing repeated `SLOAD` operations and improving execution efficiency.
+* ****Oracle Library Abstraction****: Centralizes Chainlink oracle interactions within `OracleLib`, preventing duplicated validation logic across the protocol while reducing contract size and improving maintainability.
+* ****External Function Visibility****: Declares functions as `external` where appropriate, allowing Solidity to read function arguments directly from calldata instead of copying them into memory, resulting in lower gas costs for external calls.
+* ****Event-Based Activity Tracking****:
 
 
  
@@ -304,10 +307,6 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****ERC-20 Transfer Validation:**** All ERC-20 token transfers verify the success of external transfer operations before continuing execution. Transactions immediately revert if a transfer fails, preventing inconsistent accounting or partially completed operations that could otherwise compromise protocol integrity.
 * ****Immutable Core Dependencies:**** The stablecoin contract address is stored as an immutable variable during deployment and cannot be modified afterward. This prevents administrative replacement of the stablecoin contract reducing governance risks and ensuring users always interact with the originally deployed system.
 * ****Precision-Safe Arithmetic:**** The protocol performs all financial calculations using fixed-point arithmetic with standardized precision constants. This avoids floating-point inaccuracies while minimizing rounding errors during collateral valuation, health factor calculations, and liquidation logic.
-* ****Oracle Library Abstraction****: Centralizes Chainlink oracle interactions within `OracleLib`, preventing duplicated validation logic across the protocol while reducing contract size and improving maintainability.
-* ****External Function Visibility****: Declares functions as `external` where appropriate, allowing Solidity to read function arguments directly from calldata instead of copying them into memory,
-
-  
 
 
 ### Known Risks & Assumptions

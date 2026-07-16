@@ -275,8 +275,8 @@ Create .env file in project root: </br>
  │   └── openzeppelin-contracts/                                      # OpenZeppelin audited contract library
  │
  ├── foundry.toml                                                     # Foundry project configuration
- ├── Makefile                                                         # Build, test, deployment, and  utility commands
- └── README.md                                                        # Project documentation
+ ├── Makefile                                                         # Build, test, deployment, and  utility commands.
+ └── README.md                                                        # Project documentation.
 ```
 
 
@@ -286,14 +286,11 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****Custom Errors****: Replaces traditional revert strings with Solidity custom errors, significantly reducing deployment size and gas consumption whenever transactions revert while providing structured and descriptive error handling.
 * ****Immutable Variables****: Stores the `DecentralizedStableCoin` contract address as an immutable variable, allowing the compiler to embed the value directly into the contract bytecode and eliminating expensive storage reads after deployment.
 * ****Constant Variables****: Defines protocol configuration values such as precision, liquidation threshold, and liquidation bonus as constants, enabling compile-time substitution and removing the need for runtime storage access.
-* ****Checks-Effects-Interactions (CEI) Pattern****: Updates the protocol's internal state before interacting with external contracts, reducing the risk of reentrancy attacks while avoiding unnecessary state rewrites caused by failed external calls.
-* ****Reentrancy Protection****: Utilizes OpenZeppelin's `ReentrancyGuard` on critical functions to prevent nested contract calls from manipulating protocol state during execution, improving both security and transaction reliability.
 * ****Internal Function Reuse****: Consolidates common logic into reusable internal helper functions such as `_burnDsc()`, `_redeemCollateral()`, `_healthFactor()`,and `_calculateHealthFactor()`, minimizing duplicated bytecode and lowering deployment costs.  
 * ****Cached Storage Reads****: Reads frequently accessed storage values once into local variables before performing calculations, reducing repeated `SLOAD` operations and improving execution efficiency.
 * ****Oracle Library Abstraction****: Centralizes Chainlink oracle interactions within `OracleLib`, preventing duplicated validation logic across the protocol while reducing contract size and improving maintainability.
 * ****External Function Visibility****: Declares functions as `external` where appropriate, allowing Solidity to read function arguments directly from calldata instead of copying them into memory, resulting in lower gas costs for external calls.
 * ****Event-Based Activity Tracking****: Records protocol activities such as collateral deposits and collateral redemptions through events instead of additional storage variables, providing transparent on-chain logs with significantly lower gas costs.
-* ****Modular Contract Architecture****: Separates protocol responsibilities between `DSCEngine`, `DecentralizedStableCoin`, and OracleLib,reducing contract complexity, minimizing duplicated logic, and lowering deployment bytecode size.
 
 
  

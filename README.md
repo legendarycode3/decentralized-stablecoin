@@ -289,7 +289,7 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****Checks-Effects-Interactions (CEI) Pattern****: Updates the protocol's internal state before interacting with external contracts, reducing the risk of reentrancy attacks while avoiding unnecessary state rewrites caused by failed external calls.
 * ****Reentrancy Protection****: Utilizes OpenZeppelin's `ReentrancyGuard` on critical functions to prevent nested contract calls from manipulating protocol state during execution, improving both security and transaction reliability.
 * ****Internal Function Reuse****: Consolidates common logic into reusable internal helper functions such as `_burnDsc()`, `_redeemCollateral()`, `_healthFactor()`,and `_calculateHealthFactor()`, minimizing duplicated bytecode and lowering deployment costs.
-* ****Cached Storage Reads****:
+* ****Cached Storage Reads****: Reads frequently accessed storage
 
 
  

@@ -293,7 +293,7 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****Oracle Library Abstraction****: Centralizes Chainlink oracle interactions within `OracleLib`, preventing duplicated validation logic across the protocol while reducing contract size and improving maintainability.
 * ****External Function Visibility****: Declares functions as `external` where appropriate, allowing Solidity to read function arguments directly from calldata instead of copying them into memory, resulting in lower gas costs for external calls.
 * ****Event-Based Activity Tracking****: Records protocol activities such as collateral deposits and collateral redemptions through events instead of additional storage variables, providing transparent on-chain logs with significantly lower gas costs.
-* ****Modular Contract Architecture****: Separates protocol responsibilities between `DSCEngine`, `DecentralizedStableCoin`,
+* ****Modular Contract Architecture****: Separates protocol responsibilities between `DSCEngine`, `DecentralizedStableCoin`, and OracleLib, 
 
 
  

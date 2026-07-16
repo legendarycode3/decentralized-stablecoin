@@ -305,7 +305,7 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****Immutable Core Dependencies:**** The stablecoin contract address is stored as an immutable variable during deployment and cannot be modified afterward. This prevents administrative replacement of the stablecoin contract reducing governance risks and ensuring users always interact with the originally deployed system.
 * ****Precision-Safe Arithmetic:**** The protocol performs all financial calculations using fixed-point arithmetic with standardized precision constants. This avoids floating-point inaccuracies while minimizing rounding errors during collateral valuation, health factor calculations, and liquidation logic.
 * ****Oracle Library Abstraction****: Centralizes Chainlink oracle interactions within `OracleLib`, preventing duplicated validation logic across the protocol while reducing contract size and improving maintainability.
-* ****External Function Visibility****: Declares functions as `external` where appropriate,
+* ****External Function Visibility****: Declares functions as `external` where appropriate, allowing Solidity to read function arguments
 
   
 

@@ -286,7 +286,7 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****Custom Errors****: Replaces traditional revert strings with Solidity custom errors, significantly reducing deployment size and gas consumption whenever transactions revert while providing structured and descriptive error handling.
 * ****Immutable Variables****: Stores the `DecentralizedStableCoin` contract address as an immutable variable, allowing the compiler to embed the value directly into the contract bytecode and eliminating expensive storage reads after deployment.
 * ****Constant Variables****: Defines protocol configuration values such as precision, liquidation threshold, and liquidation bonus as constants, enabling compile-time substitution and removing the need for runtime storage access.
-* ****Checks-Effects-Interactions (CEI) Pattern****: Updates the protocol's internal
+* ****Checks-Effects-Interactions (CEI) Pattern****: Updates the protocol's internal state before interacting with
 
 
  

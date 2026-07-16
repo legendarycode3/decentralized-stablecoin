@@ -282,6 +282,7 @@ Create .env file in project root: </br>
 
 
 ## Gas Optimization
+The protocol is designed
 * ****Custom Errors****: Replaces traditional revert strings with Solidity custom errors, significantly reducing deployment size and gas consumption whenever transactions revert while providing structured and descriptive error handling.
 * ****Immutable Variables****: Stores the `DecentralizedStableCoin` contract address as an immutable variable, allowing the compiler to embed the value directly into the contract bytecode and eliminating expensive storage reads after deployment.
 

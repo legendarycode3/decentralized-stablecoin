@@ -292,7 +292,7 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****Cached Storage Reads****: Reads frequently accessed storage values once into local variables before performing calculations, reducing repeated `SLOAD` operations and improving execution efficiency.
 * ****Oracle Library Abstraction****: Centralizes Chainlink oracle interactions within `OracleLib`, preventing duplicated validation logic across the protocol while reducing contract size and improving maintainability.
 * ****External Function Visibility****: Declares functions as `external` where appropriate, allowing Solidity to read function arguments directly from calldata instead of copying them into memory, resulting in lower gas costs for external calls.
-* ****Event-Based Activity Tracking****: Records protocol activities
+* ****Event-Based Activity Tracking****: Records protocol activities such as collateral deposits and
 
 
  

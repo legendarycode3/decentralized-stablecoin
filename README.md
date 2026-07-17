@@ -249,7 +249,7 @@ Deposit Collateral
 DSCEngine
 ```
 ### Mint DSC 
-Once sufficient collateral
+Once sufficient collateral has been deposited,
 
 
 

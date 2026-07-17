@@ -280,6 +280,8 @@ Redeem Collateral
 Collateral Returned
 ```
 
+### Redeem Collateral and
+
 
 ## Testing
 ### Running Tests

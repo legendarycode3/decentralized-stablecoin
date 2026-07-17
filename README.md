@@ -233,7 +233,7 @@ Deploy the Decentralized Stablecoin protocol to the configured blockchain networ
 
 
 ## Usage
-The Decentralized Stablecoin protocol enables users to interact with the system by depositing collateral, minting DSC, repaying debt, redeeming collateral, and liquidating undercollateralized positions.
+The Decentralized Stablecoin protocol enables users to interact with the system by depositing collateral, minting DSC, repaying debt, redeeming collateral, and liquidating undercollateralized positions. All protocol interactions are
 
 
 ## Testing
@@ -264,7 +264,8 @@ The Decentralized Stablecoin protocol enables users to interact with the system 
 ```shell 
  ├── script                                                           # Deployment and network configuration scripts 
  │   ├── DeployDSC.s.sol                                              # Main deployment script for the Decentralized Stablecoin protocol
- │   └── HelperConfig.s.sol                                           # Network-specific configuration (price feeds, collateral tokens, etc.)                                            ├── src                                                              # Smart contract source code
+ │   └── HelperConfig.s.sol                                           # Network-specific configuration (price feeds, collateral tokens, etc.)
+ ├── src                                                              # Smart contract source code
  │   │   └── OracleLib.sol                                            # Oracle utility library for Chainlink price feed safety and stale price checks
  │   ├── DecentralizedStableCoin.sol                                  # ERC20 stablecoin implementation responsible for minting and burning DSC
  │   └── DSCEngine.sol                                                # Core protocol logic (collateral deposits, minting, redemption, liquidation, health factor)

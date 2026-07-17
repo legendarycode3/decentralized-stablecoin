@@ -249,7 +249,7 @@ Deposit Collateral
 DSCEngine
 ```
 ### Mint DSC 
-Once sufficient collateral has been deposited, users can mint Decentralized Stablecoin (DSC). The protocol validates the user's health factor before
+Once sufficient collateral has been deposited, users can mint Decentralized Stablecoin (DSC). The protocol validates the user's health factor before minting to ensure the new debt remains safely collateralized.
  
 
 

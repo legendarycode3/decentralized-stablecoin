@@ -263,7 +263,7 @@ Mint DSC
 User Receives DSC
 ```
 ### Deposit and Mint in a Single Transaction
-For convenience, users can deposit collateral and mint DSC atomically using the
+For convenience, users can deposit collateral and mint DSC atomically using the `depositCollateralAndMintDsc()` function.
  
 
 

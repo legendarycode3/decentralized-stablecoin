@@ -269,7 +269,7 @@ For convenience, users can deposit collateral and mint DSC atomically using the 
 Users may burn DSC at any time to reduce or completely repay their outstanding debt. Burning DSC improves the user's health factor and decreases the amount of debt secured by their collateral.
 
 ### Redeem Collateral
-After reducing or repaying their debt, users can redeem part or all of their deposited collateral. Before releasing collateral,
+After reducing or repaying their debt, users can redeem part or all of their deposited collateral. Before releasing collateral, the protocol verifies that the account remains above the minimum health factor.
 
 
 

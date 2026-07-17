@@ -214,7 +214,9 @@ Create .env file in project root: </br>
       ETHERSCAN_SEPOLIA_API_KEY=your_etherscan_api_key
    ```
 2. ****Get testnet ETH:**** </br>
-      * ETH Sepolia Faucet: [Eth Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia) 
+      * ETH Sepolia Faucet: [Eth Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
+  
+### Deployment
 
  ⚠️ **Security Warning:**
   * Never commit your `.env` file.

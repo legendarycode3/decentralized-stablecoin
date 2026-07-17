@@ -281,6 +281,8 @@ Collateral Returned
 ```
 
 ### Redeem Collateral and Burn DSC
+The protocol also provides an atomic operation
+
 
 
 ## Testing

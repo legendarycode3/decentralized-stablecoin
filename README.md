@@ -237,6 +237,17 @@ The Decentralized Stablecoin protocol enables users to interact with the system 
 
 ### Deposit Collateral
 Users can deposit approved collateral assets (e.g., WETH or WBTC) into the protocol after granting the DSCEngine contract permission to spend their tokens.
+```shell
+  User
+   │
+Approve Collateral
+   │
+   ▼
+Deposit Collateral
+   │
+   ▼
+DSCEngine
+```
 
 
 

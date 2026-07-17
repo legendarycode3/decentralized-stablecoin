@@ -217,7 +217,7 @@ Create .env file in project root: </br>
       * ETH Sepolia Faucet: [Eth Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
   
 ### Deployment
-Deploy the Decentralized Stablecoin protocol to the configured blockchain
+Deploy the Decentralized Stablecoin protocol to the configured blockchain network using the project's Makefile.
 
  ⚠️ **Security Warning:**
   * Never commit your `.env` file.

@@ -249,7 +249,7 @@ Deposit Collateral
 DSCEngine
 ```
 ### Mint DSC 
-Once sufficient collateral has been deposited,
+Once sufficient collateral has been deposited, users can mint Decentralized Stablecoin (DSC).
 
 
 

@@ -216,20 +216,24 @@ Create .env file in project root: </br>
    ```
 2. ****Get testnet ETH:**** </br>
       * ETH Sepolia Faucet: [Eth Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
-  
+
+
+
+
+## Usage
+
 ### Deployment
 Deploy the Decentralized Stablecoin protocol to the configured blockchain network using the project's Makefile.
 
 ### Deploy the Protocol
+```shell
+  make deploy
+```
 
  ⚠️ **Security Warning:**
   * Never commit your `.env` file.
   * Never use your mainnet private key for testing.
   * Use a separate wallet with only testnet funds.
-
-
-
-## Usage
 
 
 

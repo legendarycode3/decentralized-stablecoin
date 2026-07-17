@@ -284,6 +284,7 @@ Collateral Returned
 The protocol also provides an atomic operation that burns DSC and redeems collateral within a single transaction, simplifying the repayment process while maintaining protocol safety.
 
 ### Liquidate Unsafe Positions
+If a user's health factor falls
 
 
 ## Testing

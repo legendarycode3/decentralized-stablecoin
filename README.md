@@ -220,6 +220,8 @@ Create .env file in project root: </br>
 ### Deployment
 Deploy the Decentralized Stablecoin protocol to the configured blockchain network using the project's Makefile.
 
+### Deploy the Protocol
+
  ⚠️ **Security Warning:**
   * Never commit your `.env` file.
   * Never use your mainnet private key for testing.

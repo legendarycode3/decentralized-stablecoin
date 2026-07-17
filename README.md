@@ -281,7 +281,7 @@ Collateral Returned
 ```
 
 ### Redeem Collateral and Burn DSC
-The protocol also provides an atomic operation that burns DSC and redeems collateral within a single
+The protocol also provides an atomic operation that burns DSC and redeems collateral within a single transaction, simplifying the repayment
 
 
 

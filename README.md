@@ -185,7 +185,7 @@ Ensure the following tools are installed on your machine: </br>
     * Verify installation: `forge --version`
 * [GIT](https://git-scm.com/) - - Version control
      * Verify installation: `git --version`
-* ****[Solidity](https://www.soliditylang.org/)**** -  
+* ****[Solidity](https://www.soliditylang.org/)**** -   The programming language for writing the Smart contracts.
        
 
 ### Installation

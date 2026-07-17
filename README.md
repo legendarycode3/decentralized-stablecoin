@@ -233,7 +233,7 @@ Deploy the Decentralized Stablecoin protocol to the configured blockchain networ
 
 
 ## Usage
-The Decentralized Stablecoin protocol enables users to interact with the system by depositing collateral, minting DSC, repaying debt, redeeming collateral, and liquidating undercollateralized positions. All protocol interactions are executed through the DSCEngine smart contract.
+The Decentralized Stablecoin protocol enables users to interact with the system by depositing collateral, minting DSC, repaying debt, redeeming collateral, and liquidating undercollateralized positions. All protocol interactions are executed through the DSCEngine smart contract. 
 
 ### Deposit Collateral
 Users can deposit approved collateral assets (e.g., WETH or WBTC) into the protocol after granting the DSCEngine contract permission to spend their tokens.
@@ -249,8 +249,8 @@ Deposit Collateral
 DSCEngine
 ```
 ### Mint DSC 
-Once sufficient collateral has been deposited, users can mint Decentralized Stablecoin (DSC).
-
+Once sufficient collateral has been deposited, users can mint Decentralized Stablecoin (DSC). The protocol validates the user's health factor before
+ 
 
 
 ## Testing

@@ -263,7 +263,7 @@ Mint DSC
 User Receives DSC
 ```
 ### Deposit and Mint in a Single Transaction
-For convenience,
+For convenience, users can deposit collateral and
  
 
 

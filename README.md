@@ -236,7 +236,7 @@ Deploy the Decentralized Stablecoin protocol to the configured blockchain networ
 The Decentralized Stablecoin protocol enables users to interact with the system by depositing collateral, minting DSC, repaying debt, redeeming collateral, and liquidating undercollateralized positions. All protocol interactions are executed through the DSCEngine smart contract.
 
 ### Deposit Collateral
-Users can deposit
+Users can deposit approved collateral assets
 
 
 

@@ -280,7 +280,7 @@ Redeem Collateral
 Collateral Returned
 ```
 
-### Redeem Collateral and
+### Redeem Collateral and Burn DSC
 
 
 ## Testing

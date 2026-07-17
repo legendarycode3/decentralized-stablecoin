@@ -264,6 +264,8 @@ User Receives DSC
 ```
 ### Deposit and Mint in a Single Transaction
 For convenience, users can deposit collateral and mint DSC atomically using the `depositCollateralAndMintDsc()` function. This combines both operations into a single transaction, reducing user interaction and gas overhead.
+
+### Burn DSC
  
 
 

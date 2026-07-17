@@ -248,6 +248,7 @@ Deposit Collateral
    ▼
 DSCEngine
 ```
+### Mint DSC
 
 
 

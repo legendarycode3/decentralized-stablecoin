@@ -185,6 +185,8 @@ Ensure the following tools are installed on your machine: </br>
     * Verify installation: `forge --version`
 * [GIT](https://git-scm.com/) - - Version control
      * Verify installation: `git --version`
+* ****[Solidity](https://www.soliditylang.org/)**** -  
+       
 
 ### Installation
  1. Clone the repository:

@@ -233,7 +233,7 @@ Deploy the Decentralized Stablecoin protocol to the configured blockchain networ
 
 
 ## Usage
-The Decentralized Stablecoin
+The Decentralized Stablecoin protocol enables users to interact with
 
 
 ## Testing

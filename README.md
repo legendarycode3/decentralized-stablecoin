@@ -248,7 +248,8 @@ Deposit Collateral
    ▼
 DSCEngine
 ```
-### Mint DSC
+### Mint DSC 
+Once sufficient collateral
 
 
 

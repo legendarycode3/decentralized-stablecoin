@@ -180,6 +180,7 @@ Receives user's collateral
 
 ## Getting Started
 ### Prerequisites
+Ensure the following
 * [FOUNDRY](https://www.getfoundry.sh/introduction/installation) - Ethereum development toolchain
     * Verify installation: `forge --version`
 * [GIT](https://git-scm.com/) - - Version control

@@ -262,6 +262,7 @@ Mint DSC
         ▼
 User Receives DSC
 ```
+### Deposit and Mint in a Single Transaction
  
 
 

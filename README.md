@@ -285,7 +285,7 @@ The protocol also provides an atomic operation that burns DSC and redeems collat
 
 ### Liquidate Unsafe Positions
 If a user's health factor falls below the required minimum collateralization threshold, anyone may liquidate part of the position by repaying a portion of the user's DSC debt. </br>
-In return, the liquidator receives the corresponding collateral plus
+In return, the liquidator receives the corresponding collateral plus a liquidation bonus as an incentive.
 
 
 ## Testing

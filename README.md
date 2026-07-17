@@ -185,7 +185,7 @@ Ensure the following tools are installed on your machine: </br>
     * Verify installation: `forge --version`
 * [GIT](https://git-scm.com/) - - Version control
      * Verify installation: `git --version`
-* ****[Solidity](https://www.soliditylang.org/)**** -   The programming language for writing the Smart contracts.
+* ****[Solidity](https://www.soliditylang.org/)**** - Solidity ^0.8.18
        
 
 ### Installation
@@ -193,6 +193,7 @@ Ensure the following tools are installed on your machine: </br>
     ```shell
         git clone https://github.com/legendarycode3/decentralized-stablecoin
     ```
+    Navigate into the project directory:
     ```shell
         cd decentralized-stablecoin
     ```

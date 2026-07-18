@@ -198,6 +198,7 @@ The DecentralizedStableCoin contract implements the ERC-20 stablecoin used throu
 * Maintains the total token supply.
 
 ### `OracleLib.sol`
+The `OracleLib` library
 
 
 

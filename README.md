@@ -195,6 +195,7 @@ The DecentralizedStableCoin contract implements the ERC-20 stablecoin used throu
 * Mints new DSC tokens.
 * Burns existing DSC tokens.
 * Restricts token issuance to the protocol.
+* Maintains the total token supply.
 
 
 

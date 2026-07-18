@@ -184,6 +184,7 @@ The Decentralized Stablecoin protocol follows a modular architecture in which ea
 * Burns DSC during debt repayment.
 * Redeems collateral after health factor validation.
 * Calculates user health factors.
+Processes liquidations
 
 
 

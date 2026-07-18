@@ -173,6 +173,7 @@ Receives user's collateral
 
 
 ## Smart Contracts
+The Decentralized Stablecoin
 
 
 

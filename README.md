@@ -173,8 +173,8 @@ Receives user's collateral
 
 
 ## Smart Contracts
-The Decentralized Stablecoin protocol follows a modular architecture
-
+The Decentralized Stablecoin protocol follows a modular architecture in which each smart contract is
+ 
 
 
 ## Technology Stack (Technologies Used)

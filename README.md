@@ -181,7 +181,7 @@ The Decentralized Stablecoin protocol follows a modular architecture in which ea
 #### Responsibilities
 * Accepts approved collateral assets.
 * Mints DSC against deposited collateral.
-* Burns DSC during
+* Burns DSC during debt repayment.
 
 
 

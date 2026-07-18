@@ -173,7 +173,7 @@ Receives user's collateral
 
 
 ## Smart Contracts
-The Decentralized Stablecoin protocol follows a modular architecture in which each smart contract is responsible for a specific aspect of the system.  This separation of concerns improves security, maintainability, and
+The Decentralized Stablecoin protocol follows a modular architecture in which each smart contract is responsible for a specific aspect of the system.  This separation of concerns improves security, maintainability, and extensibility while keeping the protocol architecture clean
  
 
 

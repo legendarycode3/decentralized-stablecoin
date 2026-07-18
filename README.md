@@ -185,7 +185,7 @@ The Decentralized Stablecoin protocol follows a modular architecture in which ea
 * Redeems collateral after health factor validation.
 * Calculates user health factors.
 * Processes liquidations for undercollateralized positions.
-* Tracks protocol collateral
+* Tracks protocol collateral and user debt.
 
 
 

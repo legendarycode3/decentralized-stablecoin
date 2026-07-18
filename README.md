@@ -176,7 +176,8 @@ Receives user's collateral
 The Decentralized Stablecoin protocol follows a modular architecture in which each smart contract is responsible for a specific aspect of the system.  This separation of concerns improves security, maintainability, and extensibility while keeping the protocol architecture clean and easy to understand.
 
 ### DSCEngine.sol
- 
+ The `DSCEngine` contract
+
 
 
 ## Technology Stack (Technologies Used)

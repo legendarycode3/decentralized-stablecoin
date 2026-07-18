@@ -173,7 +173,7 @@ Receives user's collateral
 
 
 ## Smart Contracts
-The Decentralized Stablecoin
+The Decentralized Stablecoin protocol follows a modular architecture
 
 
 

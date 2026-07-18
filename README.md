@@ -191,6 +191,7 @@ The Decentralized Stablecoin protocol follows a modular architecture in which ea
 The DecentralizedStableCoin contract implements the ERC-20 stablecoin used throughout the protocol. It is intentionally lightweight and delegates all collateral management and protocol logic to the `DSCEngine`. Minting and burning are restricted to the protocol owner (the `DSCEngine`), ensuring that DSC can only be created or destroyed through the protocol's collateralization rules.
 
 #### Responsibilities
+* Implements the ERC-20 token standard.
 
 
 

@@ -71,6 +71,37 @@ The protocol is built around a modular architecture that separates token issuanc
 ```
 
 ### Contract Relationships 
+```shell
+                      +---------------------------+
+                    |   Chainlink Price Feeds   |
+                    +-------------+-------------+
+                                  |
+                                  |
+                         Reads Market Prices
+                                  |
+                                  ▼
+                    +---------------------------+
+                    |       OracleLib.sol       |
+                    +-------------+-------------+
+                                  |
+                                  ▼
++-----------------------------------------------------------+
+|                    DSCEngine.sol                          |
+|-----------------------------------------------------------|
+| • Collateral Management                                  |
+| • Mint & Burn DSC                                        |
+| • Health Factor Calculations                             |
+| • Liquidation Engine                                     |
+| • Protocol Accounting                                    |
++------------------------+----------------------------------+
+                         |
+                         | Controls Minting & Burning
+                         ▼
+          +-------------------------------+
+          | DecentralizedStableCoin.sol   |
+          |        (ERC-20 Token)         |
+          +-------------------------------+
+```
 
 ### Core Components
 1. ****DSCEngine:**** The `DSCEngine` is the core of the protocol. It manages all business logic and maintains the protocol's solvency. </br>
@@ -417,7 +448,7 @@ The protocol is designed with gas efficiency in mind. The following optimization
 * ****Liquidation Incentives:**** The protocol rewards liquidators with a predefined liquidation bonus when repaying the debt of undercollateralized positions. This incentive encourages market participants to promptly remove risky positions from the system, promptly remove risky positions from the system, helping maintain protocol solvency during periods of market stress. 
 * ****ERC-20 Transfer Validation:**** All ERC-20 token transfers verify the success of external transfer operations before continuing execution. Transactions immediately revert if a transfer fails, preventing inconsistent accounting or partially completed operations that could otherwise compromise protocol integrity.
 * ****Immutable Core Dependencies:**** The stablecoin contract address is stored as an immutable variable during deployment and cannot be modified afterward. This prevents administrative replacement of the stablecoin contract reducing governance risks and ensuring users always interact with the originally deployed system.
-* ****Precision-Safe Arithmetic:**** The protocol performs all financial calculations using fixed-point arithmetic with standardized precision constants. This avoids floating-point inaccuracies while minimizing rounding errors during collateral valuation, health factor calculations, and liquidation logic.
+* ****Precision-Safe Arithmetic:**** The protocol performs all financial calculations using fixed-point arithmetic with, standardized precision constants. This avoids floating-point inaccuracies while minimizing rounding errors during collateral valuation, health factor calculations, and liquidation logic.
 
 
 ### Known Risks & Assumptions

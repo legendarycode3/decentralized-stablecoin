@@ -187,7 +187,7 @@ The Decentralized Stablecoin protocol follows a modular architecture in which ea
 * Processes liquidations for undercollateralized positions.
 * Tracks protocol collateral and user debt.
 
-### `DecentralizedStableCoin.sol`
+### `DecentralizedStableCoin.sol` contract implements the ERC-20 stablecoin
 
 
 

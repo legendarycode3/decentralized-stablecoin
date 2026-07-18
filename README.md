@@ -197,6 +197,8 @@ The DecentralizedStableCoin contract implements the ERC-20 stablecoin used throu
 * Restricts token issuance to the protocol.
 * Maintains the total token supply.
 
+### `OracleLib.sol`
+
 
 
 ## Technology Stack (Technologies Used)

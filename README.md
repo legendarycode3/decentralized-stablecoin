@@ -202,6 +202,7 @@ The `OracleLib` library provides a safe abstraction for interacting with Chainli
 
 #### Responsibilities
 * Reads Chainlink price data.
+* Validates oracle freshness.
  
 
 

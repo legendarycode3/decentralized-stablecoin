@@ -198,7 +198,7 @@ The DecentralizedStableCoin contract implements the ERC-20 stablecoin used throu
 * Maintains the total token supply.
 
 ### `OracleLib.sol`
-The `OracleLib` library provides a safe abstraction for interacting with Chainlink Price Feeds. It validates oracle responses by checking for stale price data before allowing prices to be used in protocol calculations,
+The `OracleLib` library provides a safe abstraction for interacting with Chainlink Price Feeds. It validates oracle responses by checking for stale price data before allowing prices to be used in protocol calculations, helping protect the system from outdated market information.
  
 
 

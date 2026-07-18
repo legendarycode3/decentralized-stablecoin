@@ -175,7 +175,7 @@ Receives user's collateral
 ## Smart Contracts
 The Decentralized Stablecoin protocol follows a modular architecture in which each smart contract is responsible for a specific aspect of the system.  This separation of concerns improves security, maintainability, and extensibility while keeping the protocol architecture clean and easy to understand.
 
-### DSCEngine.sol
+### `DSCEngine.sol`
  The `DSCEngine` contract is the core of the protocol and manages all collateralized debt positions (CDPs).  It handles collateral deposits, stablecoin minting and burning, collateral redemption, liquidation, health factor calculations, and protocol accounting. The contract integrates Chainlink Price Feeds to determine the USD value of supported collateral assets and ensures every minted DSC remains safely overcollateralized.
 
 #### Responsibilities
@@ -186,6 +186,8 @@ The Decentralized Stablecoin protocol follows a modular architecture in which ea
 * Calculates user health factors.
 * Processes liquidations for undercollateralized positions.
 * Tracks protocol collateral and user debt.
+
+### `DecentralizedStableCoin.sol`
 
 
 

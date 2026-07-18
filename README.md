@@ -183,6 +183,7 @@ The Decentralized Stablecoin protocol follows a modular architecture in which ea
 * Mints DSC against deposited collateral.
 * Burns DSC during debt repayment.
 * Redeems collateral after health factor validation.
+* Calculates user health factors.
 
 
 

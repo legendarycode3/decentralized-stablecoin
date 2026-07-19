@@ -260,7 +260,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 * `Liquidation(address collateral, address user, uint256 debtToCover)`: Allows a third party to liquidate an undercollateralized position by repaying a portion of the user’s DSC debt in exchange for the corresponding collateral plus a liquidation bonus.
 
 #### Account Information
-* `getAccountInformation(address user)`: Returns the total DSC minted by a
+* `getAccountInformation(address user)`: Returns the total DSC minted by a user and the total USD value
  
 
 

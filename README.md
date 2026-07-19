@@ -243,7 +243,7 @@ The `OracleLib` library provides a safe abstraction for interacting with Chainli
 
 
 ## Functions
-The Decentralized Stablecoin protocol exposes a set of public and external functions through the `DSCEngine` and `DecentralizedStableCoin` contracts.
+The Decentralized Stablecoin protocol exposes a set of public and external functions through the `DSCEngine` and `DecentralizedStableCoin` contracts. These functions are grouped by responsibility to
  
 
 

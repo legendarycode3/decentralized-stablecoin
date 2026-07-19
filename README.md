@@ -247,6 +247,8 @@ The Decentralized Stablecoin protocol exposes a set of public and external funct
 
 ### DSCEngine Functions
 The `DSCEngine` contract contains the core protocol logic for collateral management, stablecoin operations, liquidations, and account information retrieval.
+
+#### Collateral Management
  
 
 

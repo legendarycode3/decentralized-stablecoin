@@ -239,6 +239,10 @@ The `OracleLib` library provides a safe abstraction for interacting with Chainli
 * Validates oracle freshness.
 * Prevents stale price usage.
 * Standardizes oracle interactions across the protocol.
+
+
+
+## Functions
  
 
 

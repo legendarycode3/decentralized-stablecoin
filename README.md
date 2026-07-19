@@ -281,7 +281,7 @@ The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin and expo
 
 #### Token Operations
 * `mint(address _to, uint256 _amount)`: Mints new DSC tokens to a specified address. This function can only be called by the contract owner (`DSCEngine`) and is used when users mint DSC against deposited collateral.
-* `burn(uint256 _amount)`:
+* `burn(uint256 _amount)`: Burns a specified amount of DSC
  
 
 

@@ -272,7 +272,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 
 #### Protocol Configuration
 * `getCollateralTokens()`: Returns the list of approved collateral tokens supported by the protocol.
-* `getPriceFeed(address token)`:
+* `getPriceFeed(address token)`: Returns the Chainlink price feed address
  
 
 

@@ -255,7 +255,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 * `redeemCollateralForDsc(address tokenCollateralAddress, uint256 amountCollateral, uint256 amountDscToBurn)`: Burns DSC and redeems collateral in a single transaction, allowing users to efficiently repay debt and withdraw their collateral in one seamless operation.
 
 #### Stablecoin Operations
-* `mintDsc(uint256 amountDscToMint)`: Mints new DSC tokens against the user’s
+* `mintDsc(uint256 amountDscToMint)`: Mints new DSC tokens against the user’s deposited collateral after verifying
  
 
 

@@ -276,11 +276,11 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 * `getCollateralTokenPriceFeed(address token)`: Returns the configured price feed address for a specific collateral token.
 * `getDscAddress()`: Returns the address of the deployed 'DecentralizedStableCoin' contract.
 
-### DecentralizedStableCoin contract
+### DecentralizedStableCoin Functions
 The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin and exposes only the protocol-specific functions.
 
 #### Token Operations
-* `mint(address _to, uint256 _amount)`:
+* `mint(address _to, uint256 _amount)`: Mints new DSC tokens to a specified
  
 
 

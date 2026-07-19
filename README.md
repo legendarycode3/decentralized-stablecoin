@@ -271,6 +271,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 * `calculateHealthFactor(uint256 totalDscMinted, uint256 collateralValueInUsd)`: Calculates the health factor for a position based on its minted DSC and collateral value, helping determine whether the position is safely collateralized.
 
 #### Protocol Configuration
+* `getCollateralTokens()`:
  
 
 

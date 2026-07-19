@@ -280,6 +280,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin and exposes only the protocol-specific functions.
 
 #### Token Operations
+* `mint(address _to, uint256 _amount)`:
  
 
 

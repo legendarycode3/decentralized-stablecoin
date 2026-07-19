@@ -249,7 +249,7 @@ The Decentralized Stablecoin protocol exposes a set of public and external funct
 The `DSCEngine` contract contains the core protocol logic for collateral management, stablecoin operations, liquidations, and account information retrieval.
 
 #### Collateral Management
-* `depositCollateral(address tokenCollateralAddress, uint256 amountCollateral)`: Deposits an approved collateral asset into the protocol. The deposited collateral is securely recorded in the user’s account and
+* `depositCollateral(address tokenCollateralAddress, uint256 amountCollateral)`: Deposits an approved collateral asset into the protocol. The deposited collateral is securely recorded in the user’s account and contributes to the user’s
  
 
 

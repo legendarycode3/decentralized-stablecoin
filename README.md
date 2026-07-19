@@ -277,7 +277,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 * `getDscAddress()`: Returns the address of the deployed 'DecentralizedStableCoin' contract.
 
 ### DecentralizedStableCoin contract
-The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin
+The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin and exposes only the protocol-specific
  
 
 

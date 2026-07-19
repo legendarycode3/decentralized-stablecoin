@@ -280,7 +280,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin and exposes only the protocol-specific functions.
 
 #### Token Operations
-* `mint(address _to, uint256 _amount)`: Mints new DSC tokens to a specified address. This function can only be called by the contract owner (DSCEngine) and
+* `mint(address _to, uint256 _amount)`: Mints new DSC tokens to a specified address. This function can only be called by the contract owner (`DSCEngine`) and is used when users mint DSC against deposited collateral.
  
 
 

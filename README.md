@@ -251,7 +251,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 #### Collateral Management
 * `depositCollateral(address tokenCollateralAddress, uint256 amountCollateral)`: Deposits an approved collateral asset into the protocol. The deposited collateral is securely recorded in the user’s account and contributes to the user’s borrowing capacity for minting DSC.
 * `redeemCollateral(address tokenCollateralAddress, uint256 amountCollateral)`: Withdraws deposited collateral from the protocol, provided the user’s health factor remains above the minimum required threshold after the withdrawal, ensuring the protocol remains safely collateralized.
-* `depositCollateralAndMintDsc`
+* `depositCollateralAndMintDsc(address tokenCollateralAddress, uint256 amountCollateral, uint256 amountDscToMint)`
  
 
 

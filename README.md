@@ -261,7 +261,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 
 #### Account Information
 * `getAccountInformation(address user)`: Returns the total DSC minted by a user and the total USD value of their deposited collateral, providing a complete overview of the user’s protocol position.
-* `getHealthFactor(address user)`: Returns the current health factor of a user, indicating whether their position is
+* `getHealthFactor(address user)`: Returns the current health factor of a user, indicating whether their position is safely collateralized or at risk of liquidation.
  
 
 

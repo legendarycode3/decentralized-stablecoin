@@ -264,6 +264,8 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 * `getHealthFactor(address user)`: Returns the current health factor of a user, indicating whether their position is safely collateralized or at risk of liquidation.
 * `getAccountCollateralValue(address user)`: Returns the total USD value of all collateral deposited by a user across all supported collateral assets.
 * `getCollateralBalanceOfUser(address user, address token)`: Returns the amount of a specific collateral token deposited by a user within the protocol.
+
+#### Price and Conversion Utilities
  
 
 

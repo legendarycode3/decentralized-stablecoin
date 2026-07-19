@@ -257,6 +257,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 #### Stablecoin Operations
 * `mintDsc(uint256 amountDscToMint)`: Mints new DSC tokens against the user’s deposited collateral after verifying that the user’s health factor remains above the minimum threshold required by the protocol.
 * `burnDsc(uint256 amount)`: Burns DSC tokens from the user’s balance, reducing the user’s outstanding debt and improving their health factor within the protocol.
+* `Liquidation`:
  
 
 

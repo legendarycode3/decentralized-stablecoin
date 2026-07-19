@@ -243,6 +243,7 @@ The `OracleLib` library provides a safe abstraction for interacting with Chainli
 
 
 ## Functions
+The Decentralized Stablecoin
  
 
 

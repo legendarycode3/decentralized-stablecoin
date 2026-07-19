@@ -274,6 +274,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 * `getCollateralTokens()`: Returns the list of approved collateral tokens supported by the protocol.
 * `getPriceFeed(address token)`: Returns the Chainlink price feed address associated with a supported collateral token.
 * `getCollateralTokenPriceFeed(address token)`: Returns the configured price feed address for a specific collateral token.
+* `getDscAddress()`:
  
 
 

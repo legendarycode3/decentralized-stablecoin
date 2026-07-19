@@ -276,7 +276,8 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 * `getCollateralTokenPriceFeed(address token)`: Returns the configured price feed address for a specific collateral token.
 * `getDscAddress()`: Returns the address of the deployed 'DecentralizedStableCoin' contract.
 
-### DecentralizedStableCoin contract.
+### DecentralizedStableCoin contract
+The `DecentralizedStableCoin` contract
  
 
 

@@ -266,6 +266,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 * `getCollateralBalanceOfUser(address user, address token)`: Returns the amount of a specific collateral token deposited by a user within the protocol.
 
 #### Price and Conversion Utilities
+* `getUsdValue(address token, uint256 amount)`:
  
 
 

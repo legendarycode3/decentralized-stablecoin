@@ -268,7 +268,7 @@ The `DSCEngine` contract contains the core protocol logic for collateral managem
 #### Price and Conversion Utilities
 * `getUsdValue(address token, uint256 amount)`: Converts a token amount into its equivalent USD value using Chainlink price feeds, ensuring accurate collateral valuation.
 * `getTokenAmountFromUsd(address token, uint256 usdAmountInWei)`: Converts a USD value into the equivalent amount of a supported collateral token based on current oracle pricing.
-* `calculateHealthFactor(uint256 totalDscMinted, uint256 collateralValueInUsd)`: Calculates the health factor for a position based on its minted DSC and
+* `calculateHealthFactor(uint256 totalDscMinted, uint256 collateralValueInUsd)`: Calculates the health factor for a position based on its minted DSC and collateral value, helping determine whether
  
 
 

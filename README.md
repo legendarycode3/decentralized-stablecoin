@@ -285,6 +285,10 @@ The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin and expo
  
 
 
+## How It Works
+
+
+
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
 * ****Foundry**** : Development framework and testing suite.

@@ -323,6 +323,7 @@ Before minting DSC, the protocol calculates the user’s `Health Factor`, which 
 The protocol enforces a liquidation threshold to ensure that every minted DSC remains backed by sufficient collateral.
 
 #### 4. Minting DSC
+If the user’s Health Factor
  
 
 

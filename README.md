@@ -310,7 +310,8 @@ The protocol follows a simple but secure workflow that ensures every DSC token i
         User Receives DSC
 ```
 ### Step-by-Step Process
-#### 1. Deposit Collateral
+#### 1. Deposit Collateral:
+A user begins by depositing
  
 
 

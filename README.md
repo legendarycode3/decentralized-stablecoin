@@ -329,7 +329,7 @@ If the user’s Health Factor remains above the minimum threshold, the `DSCEngin
 After receiving DSC, the user can hold, transfer, or use the stablecoin in other decentralized finance (DeFi) applications while their collateral remains locked in the protocol.
 
 #### 6. Burning DSC and Redeeming Collateral
-To repay debt, the
+To repay debt, the user burns DSC through the protocol.
  
 
 

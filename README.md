@@ -336,6 +336,9 @@ To repay debt, the user burns DSC through the protocol. Once the debt is reduced
         │
         ▼
 Outstanding Debt Is Reduced
+        │
+        ▼
+Health Factor Is Recalculated
 ```
  
 

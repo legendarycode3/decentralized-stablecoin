@@ -320,7 +320,7 @@ Once collateral is deposited, the protocol retrieves real-time USD prices from C
 Before minting DSC, the protocol calculates the user’s `Health Factor`, which represents the safety of the collateralized position. </br>
 * A Health Factor `above 1` indicates that the position is safely collateralized. </br>
 * A Health Factor `below 1` indicates that the position is undercollateralized and may be liquidated. </br>
-The protocol enforces a liquidation
+The protocol enforces a liquidation threshold to ensure that every minted DSC
  
 
 

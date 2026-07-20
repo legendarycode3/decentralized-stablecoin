@@ -291,7 +291,12 @@ The Decentralized Stablecoin (DSC) protocol allows users to deposit approved cry
 ### Protocol Workflow
 The protocol follows a simple but secure workflow that ensures every DSC token is backed by sufficient collateral.
 
-User Deposits Collateral (WETH / WBTC)
+```shell
+   User Deposits Collateral (WETH / WBTC)
+                │
+                ▼
+     DSCEngine Stores Collateral
+```
  
 
 

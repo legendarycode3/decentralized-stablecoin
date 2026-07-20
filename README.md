@@ -314,7 +314,7 @@ The protocol follows a simple but secure workflow that ensures every DSC token i
 A user begins by depositing an approved collateral asset, such as WETH or WBTC, into the `DSCEngine` contract. The protocol records the deposited amount in the user’s account and uses it as the basis for determining the user’s borrowing capacity.
 
 #### 2. Collateral Valuation: 
-Once collateral is deposited, the protocol retrieves real-time USD prices
+Once collateral is deposited, the protocol retrieves real-time USD prices from Chainlink Price Feeds.
  
 
 

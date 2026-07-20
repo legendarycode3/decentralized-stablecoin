@@ -333,6 +333,9 @@ To repay debt, the user burns DSC through the protocol. Once the debt is reduced
 
 ```shell
   User Burns DSC
+        │
+        ▼
+Outstanding Debt Is Reduced
 ```
  
 

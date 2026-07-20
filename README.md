@@ -286,6 +286,7 @@ The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin and expo
 
 
 ## How It Works
+The Decentralized Stablecoin (DSC)
 
 
 

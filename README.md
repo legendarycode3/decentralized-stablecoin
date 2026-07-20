@@ -326,7 +326,7 @@ The protocol enforces a liquidation threshold to ensure that every minted DSC re
 If the user’s Health Factor remains above the minimum threshold, the `DSCEngine` mints the requested amount of DSC through the `DecentralizedStableCoin` contract and transfers the newly minted tokens to the user.
 
 #### 5. Using DSC
-After receiving DSC,
+After receiving DSC, the user can hold, transfer,
  
 
 

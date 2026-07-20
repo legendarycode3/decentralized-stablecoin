@@ -343,10 +343,12 @@ Health Factor Is Recalculated
         ▼
 Collateral Is Redeemed if Position Is Safe
 ```
+
+#### 7. Liquidation Process
  
 
 
-## Technology Stack (Technologies Used)
+## Tech Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
 * ****Foundry**** : Development framework and testing suite.
 

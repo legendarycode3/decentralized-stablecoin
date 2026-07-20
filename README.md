@@ -355,6 +355,7 @@ This mechanism protects the protocol from bad debt and helps maintain the stabil
 ### Key Safety Mechanisms
 * ****Overcollateralization****: Users must deposit collateral worth more than the DSC they mint.
 * ****Chainlink Oracles****: Real-time price feeds ensure accurate collateral valuation.
+* ****Health Factor Enforcement****:
  
 
 

@@ -351,6 +351,8 @@ If a user’s Health Factor falls below the minimum required threshold, the posi
 * The liquidator receives the corresponding collateral plus a liquidation bonus.
 * The user’s position is improved by reducing outstanding debt. </br>
 This mechanism protects the protocol from bad debt and helps maintain the stability of the DSC stablecoin.
+
+### Key Safety Mechanisms
  
 
 

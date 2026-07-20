@@ -348,6 +348,7 @@ Collateral Is Redeemed if Position Is Safe
 If a user’s Health Factor falls below the minimum required threshold, the position becomes eligible for liquidation.
 * A liquidator repays a portion of the user’s DSC debt.
 * The protocol burns the repaid DSC.
+* 
  
 
 

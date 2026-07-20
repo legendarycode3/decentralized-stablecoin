@@ -304,7 +304,7 @@ The protocol follows a simple but secure workflow that ensures every DSC token i
       Health Factor Is Calculated
                 │
                 ▼
-  If Health Factor Is Safe,
+  If Health Factor Is Safe, DSC Is Minted
 ```
  
 

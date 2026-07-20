@@ -330,6 +330,10 @@ After receiving DSC, the user can hold, transfer, or use the stablecoin in other
 
 #### 6. Burning DSC and Redeeming Collateral
 To repay debt, the user burns DSC through the protocol. Once the debt is reduced or fully repaid, the user can redeem part or all of their deposited collateral, provided the remaining position maintains a safe Health Factor.
+
+```shell
+  User Burns DSC
+```
  
 
 

@@ -353,6 +353,7 @@ If a user’s Health Factor falls below the minimum required threshold, the posi
 This mechanism protects the protocol from bad debt and helps maintain the stability of the DSC stablecoin.
 
 ### Key Safety Mechanisms
+* ****Overcollateralization****:
  
 
 

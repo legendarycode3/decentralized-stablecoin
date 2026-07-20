@@ -286,7 +286,7 @@ The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin and expo
 
 
 ## How It Works
-The Decentralized Stablecoin (DSC) protocol allows users to deposit approved cryptocurrency collateral and mint a USD-pegged stablecoin while maintaining protocol solvency through overcollateralization and automated liquidations.
+The Decentralized Stablecoin (DSC) protocol allows users to deposit approved cryptocurrency collateral and mint a USD-pegged stablecoin while maintaining protocol solvency through overcollateralization and automated liquidations. 
 
 ### Protocol Workflow
 The protocol follows a simple but secure workflow that ensures every DSC token is backed by sufficient collateral.
@@ -314,7 +314,7 @@ The protocol follows a simple but secure workflow that ensures every DSC token i
 A user begins by depositing an approved collateral asset, such as WETH or WBTC, into the `DSCEngine` contract. The protocol records the deposited amount in the user’s account and uses it as the basis for determining the user’s borrowing capacity.
 
 #### 2. Collateral Valuation: 
-Once collateral is deposited, the protocol retrieves real-time USD prices from Chainlink Price Feeds.
+Once collateral is deposited, the protocol retrieves real-time USD prices from Chainlink Price Feeds. These prices are used to calculate
  
 
 

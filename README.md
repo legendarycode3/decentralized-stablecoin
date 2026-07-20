@@ -296,6 +296,9 @@ The protocol follows a simple but secure workflow that ensures every DSC token i
                 │
                 ▼
      DSCEngine Stores Collateral
+                │
+                ▼
+     Chainlink Price Feeds
 ```
  
 

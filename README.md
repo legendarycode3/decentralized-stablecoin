@@ -357,6 +357,7 @@ This mechanism protects the protocol from bad debt and helps maintain the stabil
 * ****Chainlink Oracles****: Real-time price feeds ensure accurate collateral valuation.
 * ****Health Factor Enforcement****: Prevents users from minting more DSC than their collateral safely supports.
 * ****Automated Liquidations****: Removes undercollateralized positions before they can threaten protocol solvency.
+* ****Reentrancy Protection****:
  
 
 

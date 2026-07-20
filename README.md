@@ -356,7 +356,7 @@ This mechanism protects the protocol from bad debt and helps maintain the stabil
 * ****Overcollateralization****: Users must deposit collateral worth more than the DSC they mint.
 * ****Chainlink Oracles****: Real-time price feeds ensure accurate collateral valuation.
 * ****Health Factor Enforcement****: Prevents users from minting more DSC than their collateral safely supports.
-* ****Automated Liquidations****: Removes undercollateralized positions
+* ****Automated Liquidations****: Removes undercollateralized positions before they can threaten protocol solvency.
  
 
 

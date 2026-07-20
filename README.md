@@ -345,6 +345,7 @@ Collateral Is Redeemed if Position Is Safe
 ```
 
 #### 7. Liquidation Process
+If a user’s Health Factor falls
  
 
 

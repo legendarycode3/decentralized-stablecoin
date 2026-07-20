@@ -349,7 +349,8 @@ If a user’s Health Factor falls below the minimum required threshold, the posi
 * A liquidator repays a portion of the user’s DSC debt.
 * The protocol burns the repaid DSC. 
 * The liquidator receives the corresponding collateral plus a liquidation bonus.
-* The user’s position is improved by reducing outstanding debt.
+* The user’s position is improved by reducing outstanding debt. </br>
+This mechanism protects the protocol
  
 
 

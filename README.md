@@ -345,7 +345,7 @@ Collateral Is Redeemed if Position Is Safe
 ```
 
 #### 7. Liquidation Process
-If a user’s Health Factor falls below the minimum required threshold,
+If a user’s Health Factor falls below the minimum required threshold, the position becomes eligible for liquidation.
  
 
 

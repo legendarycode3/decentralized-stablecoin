@@ -318,6 +318,7 @@ Once collateral is deposited, the protocol retrieves real-time USD prices from C
 
 #### 3. Health Factor Calculation:
 Before minting DSC, the protocol calculates the user’s `Health Factor`, which represents the safety of the collateralized position.
+    * A Health Factor above 1 indicates
  
 
 

@@ -289,7 +289,7 @@ The `DecentralizedStableCoin` contract implements the ERC-20 stablecoin and expo
 The Decentralized Stablecoin (DSC) protocol allows users to deposit approved cryptocurrency collateral and mint a USD-pegged stablecoin while maintaining protocol solvency through overcollateralization and automated liquidations.
 
 ### Protocol Workflow
-The protocol follows a simple but secure workflow that ensures every
+The protocol follows a simple but secure workflow that ensures every DSC token is backed by sufficient collateral.
  
 
 

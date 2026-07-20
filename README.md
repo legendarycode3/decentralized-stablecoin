@@ -305,6 +305,9 @@ The protocol follows a simple but secure workflow that ensures every DSC token i
                 │
                 ▼
   If Health Factor Is Safe, DSC Is Minted
+                │
+                ▼
+        User Receives DSC
 ```
  
 

@@ -339,6 +339,9 @@ Outstanding Debt Is Reduced
         │
         ▼
 Health Factor Is Recalculated
+        │
+        ▼
+Collateral Is Redeemed if Position Is Safe
 ```
  
 

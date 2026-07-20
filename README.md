@@ -321,6 +321,8 @@ Before minting DSC, the protocol calculates the user’s `Health Factor`, which 
 * A Health Factor `above 1` indicates that the position is safely collateralized. </br>
 * A Health Factor `below 1` indicates that the position is undercollateralized and may be liquidated. </br>
 The protocol enforces a liquidation threshold to ensure that every minted DSC remains backed by sufficient collateral.
+
+#### 4. Minting DSC
  
 
 

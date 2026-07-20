@@ -317,7 +317,7 @@ A user begins by depositing an approved collateral asset, such as WETH or WBTC, 
 Once collateral is deposited, the protocol retrieves real-time USD prices from Chainlink Price Feeds. These prices are used to calculate the total USD value of the user’s collateral and determine how much DSC can be safely minted.
 
 #### 3. Health Factor Calculation:
-Before minting DSC, the protocol calculates the user’s `Health Factor`,
+Before minting DSC, the protocol calculates the user’s `Health Factor`, which represents the safety of the collateralized position.
  
 
 

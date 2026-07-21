@@ -366,7 +366,7 @@ The Decentralized Stablecoin protocol is built using a modern Solidity developme
 * ****Solidity (^0.8.18)**** : The programming language for writing the Smart contracts.
 * ****Foundry**** : A fast and modular Ethereum development framework used for compiling, testing, fuzzing, gas analysis, and deploying the smart contracts.
 * ****OpenZeppelin Contracts****: Provides secure and audited smart contract implementations, including ERC-20 token standards, ownership management, and reentrancy protection.
-* ****Chainlink Price Feeds****: Supplies decentralized and tamper-resistant price data
+* ****Chainlink Price Feeds****: Supplies decentralized and tamper-resistant price data used to determine the USD
 
 
 

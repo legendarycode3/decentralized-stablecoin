@@ -364,7 +364,7 @@ This mechanism protects the protocol from bad debt and helps maintain the stabil
 ## Tech Stack (Technologies Used)
 The Decentralized Stablecoin protocol is built using a modern Solidity development stack focused on security, reliability, testing, and efficient deployment.
 * ****Solidity (^0.8.18)**** : The programming language for writing the Smart contracts.
-* ****Foundry**** : A fast and modular Ethereum development
+* ****Foundry**** : A fast and modular Ethereum development framework used for
 
 
 

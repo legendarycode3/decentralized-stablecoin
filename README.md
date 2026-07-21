@@ -367,8 +367,8 @@ The Decentralized Stablecoin protocol is built using a modern Solidity developme
 * ****Foundry**** : A fast and modular Ethereum development framework used for compiling, testing, fuzzing, gas analysis, and deploying the smart contracts.
 * ****OpenZeppelin Contracts****: Provides secure and audited smart contract implementations, including ERC-20 token standards, ownership management, and reentrancy protection.
 * ****Chainlink Price Feeds****: Supplies decentralized and tamper-resistant price data used to determine the USD value of collateral assets such as WETH and WBTC.
-* ****Anvil****: A local Ethereum development
-
+* ****Anvil****: A local Ethereum development node used for testing and
+ 
 
 
 ## Getting Started

@@ -365,7 +365,7 @@ This mechanism protects the protocol from bad debt and helps maintain the stabil
 The Decentralized Stablecoin protocol is built using a modern Solidity development stack focused on security, reliability, testing, and efficient deployment.
 * ****Solidity (^0.8.18)**** : The programming language for writing the Smart contracts.
 * ****Foundry**** : A fast and modular Ethereum development framework used for compiling, testing, fuzzing, gas analysis, and deploying the smart contracts.
-* ****OpenZeppelin Contracts****:
+* ****OpenZeppelin Contracts****: Provides secure and
 
 
 

@@ -368,7 +368,7 @@ The Decentralized Stablecoin protocol is built using a modern Solidity developme
 * ****OpenZeppelin Contracts****: Provides secure and audited smart contract implementations, including ERC-20 token standards, ownership management, and reentrancy protection.
 * ****Chainlink Price Feeds****: Supplies decentralized and tamper-resistant price data used to determine the USD value of collateral assets such as WETH and WBTC.
 * ****Anvil****: A local Ethereum development node used for testing and simulating blockchain interactions.
-* ****Makefile****: Automates common development tasks such as building,
+* ****Makefile****: Automates common development tasks such as building, testing, formatting,
  
 
 
